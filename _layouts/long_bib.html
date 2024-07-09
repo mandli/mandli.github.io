@@ -1,0 +1,67 @@
+---
+---
+<a name="{{entry.key}}-anchor"></a><a class="title" data-toggle="collapse" data-target=".{{ entry.key }}.collapse">{% if entry.type == "book" %}{{ entry.booktitle }}{% elsif entry.type == "article" %}{{ entry.title }}
+{% elsif entry.type == "misc" %}{ entry.title }}{% elsif entry.type == "incollection" %}{{ entry.title }}
+{% endif %}</a><br>
+
+<div id="{{key}}-fullentry" class="collapse {{ entry.key }} fullentry show">
+{% if entry.author contains "and" %}
+(with {{ entry.author | remove: "Kyle T." | remove: "Mandli, " | remove_first: "and "}})<br>
+{% elsif entry.editor contains "and" %}
+  {% unless entry.author == "Mandli, Kyle T." %}
+(with {{ entry.editor | remove: "Kyle T." | remove: "Mandli, " | remove_first: "and "}})<br>
+  {% endunless %}
+{% endif %}
+
+
+{% if entry.type == "book" %}{{ entry.publisher }}
+{% elsif entry.type == "article" %}<i>{{ entry.journal }}</i>
+{% elsif entry.type == "misc" %}<i>{{ entry.journal }}</i>
+{% elsif entry.type == "incollection" %} In <i>{{ entry.booktitle }}</i>, {{ entry.publisher }}
+{% endif %}
+
+
+
+{{ heading }}
+({{ entry.date }})
+
+{% assign pic = "false" %}
+{% if links.png %}{% assign pic = links.png %}
+{% elsif links.jpg %}{% assign pic = links.jpg %}
+{% elsif links.jpeg %}{% assign pic = links.jpeg %}
+{% elsif links.pic %}{% assign pic = links.pic %}
+{% elsif links.tiff %}{% assign pic = links.tiff %}
+{% endif %}
+
+<div id="{{key}}-links" class="biblinks clearfix">
+  <ul>
+    {% if entry.doi %}
+    <li><a href="http://doi.org/{{entry.doi}}" target="_blank">DOI</a></li>
+    {% endif %}
+    <li><a data-toggle="collapse" data-target="#{{key}}-bibtex" data-parent="#{{key}}-info" style="cursor: zoom-in">BibTeX</a></li>
+    <li><a data-toggle="collapse" data-target="#{{key}}-citation" data-parent="#{{key}}-info" style="cursor: zoom-in">Full Cite</a></li>
+    {% if entry.abstract %}
+
+    <li><a data-toggle="collapse"  data-target="#{{key}}-abstract" data-parent="#{{key}}-info" style="cursor: zoom-in">Abstract</a></li>
+    {% endif %}
+  </ul>
+</div>
+
+<div id="{{key}}-info" class="item_details clearfix">
+  <blockquote> {% if pic != "false" %}<img src="{{ pic }}"> {% else %}<img src="/files/spacer.png" style="border: 0px "> {% endif %}
+  <div id="{{key}}-bibtex" name="{{key}}-bibtex" class="pre collapse {{key}} bibtex">
+    <pre >{{entry.bibtex}}</pre>
+  </div>
+  <div id="{{key}}-citation" name="{{key}}-citation" class="collapse {{key}} citation"> 
+    <p>{{reference}}</p>
+  </div>
+  {% if entry.abstract %}
+  <div id="{{key}}-abstract" name="{{key}}-abstract" class="abstract collapse show {{key}} abstract">
+    {{entry.abstract}}
+  </div>
+  {% else %}
+  <div>&nbsp;</div>
+  {% endif %}
+</blockquote>
+</div>
+</div>

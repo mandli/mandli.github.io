@@ -1,0 +1,11 @@
+---
+---
+<strong>{{ entry.title }}</strong> <br> {{ entry.author }} - {{ entry.journal }}
+{% if entry.year %}
+({{ entry.year }})
+{% endif %}
+{% if entry.doi %}
+<a href="https://doi.org/{{entry.doi}}">{{entry.doi}}</a>
+{% elsif entry.url %}
+<a href="{{ entry.url }}">{{ entry.url }}</a>
+{% endif %}
