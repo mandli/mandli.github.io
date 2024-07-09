@@ -1,6 +1,6 @@
 ---
 title: Projects
-layout: projects
+layout: headless_page
 ---
 
 # Projects

@@ -1,10 +1,9 @@
 ---
-layout: page
+layout: headless_page
 title: CV
-permalink: /cv/
 ---
 
-[PDF](/static/pdf/cv.pdf)
+<h1><a href="/pdf/cv.pdf">Kyle T. Mandli, Ph.D.</a></h1>
 
 **Contact Information**
 Flatiron Institute - Simons Foundation
@@ -242,5 +241,7 @@ Flatiron Institute - Simons Foundation
 - NSF GRFP Reviewer, 2016, 2018, and 2020
 - NSF site reviewer for NanoHub, 2018, 2020
 - NSF CRISP PI Meeting Organizing Committee, 2018
+
+[PDF](/pdf/cv.pdf)
 
 <!-- [Flatiron Institute](https://simonsfoundation.org/flatiron/) -->
