@@ -106,7 +106,7 @@ Flatiron Institute - Simons Foundation
  - Postdocs
    - Alvin Zhang - Postdoctoral Researcher, co-advised with U.S. Army Corp of engineers (Chris Kees), 01/01/2020-present - research scientist with private company.
    - Colton Conroy - Postdoctoral Researcher, 05/01/2015-08/31/2017 - Currently research scientist.
- - Graduate Students
+ - Ph.D. Graduate Students
    - Philip Dinenis - 5th year - doctoral student co-advisor (with Dan Bienstock), graduated 2023.
    - Chanyang Ryoo - doctoral student advisor, graduated 2022. "Development of Cut Cell Methods for Barrier Simulations with Shallow Water Equations".
    - Yuki Miura (Civil) - co-advised with George Deodatis, graduated 2022. "Optimization of Coastal Protective Strategies Against Flooding and Sea level Rise"
@@ -115,12 +115,12 @@ Flatiron Institute - Simons Foundation
  - Thesis Advising
    - Doctoral Theses: Philip Dinenis (2023), Yuki Miura (2022), Judah Ryoo (2022), Jiao Li (2019); Pushkar Jain (2018).
    - Doctoral Theses as Reader: Ernesto Guerrero Ferńadez, Kathy Li, Sean Harnett, Qian Peng, Luc Berger-Vergiat, Dan Shaevitz, Eric Isaacs, Ning Guo, Yipeng Huang, Xiaochuan Tian, Hasan Cagen Ozen, Hongjian Qi, Kristof Unterweger (TUM, CS), Melanie Bieli, Roshan Sharma, Dominic Charrier (Durham, CS).
-   - M.S. Theses: Andrè Malcher (TUM, CS), 
+   - M.S. Theses: Andrè Malcher (TUM, CS), Abel Valko (KTH, ACM),
    - B.S. Theses: Antoine Crèpin (ENSTA-ParisTech), Ben Wallyn (ENSTA-ParisTech, math), Alexander Laveissiere (ENSTA-ParisTech, math)
  - Non-Thesis Advising
-   - Masters Students: Nav Ravindranath, Hugh Krogh-Freeman, Akshay Sripada, Huda Qureshi, and Melody Shi (Ph.D. student at NYU-Courant).
-   - Undergraduates: Ana Pérez-Villagómez, Tassneen Bashir, Oni Zhang, Gauri Talwar, Imani Gosserand, Danielle Cai, Sophia White, Daniel Halmos, Abraham Oh, John Lord, Gary Casey, Yanda (David) Chen, Gabe Silverman (Harvard), Joshua Kapilian, Stan Liao, Xinyi (Jessy) Han, Sarah Samuel, Mirah Shi, Rachit Rajat (Ph.D. student at USC), Conner Greene, Ria Garg, Emma Schrechter, Andrew Kluzny (Ph.D. student at Brown), Johnathan Socoy, Akshay Choudhry, Avi Schwarzschild (Ph.D. student at U. Maryland), and Riley Fisher.
-   - High School: Dean Chapman, David Wang, Yul Kim, Ana Mata-Payerro, Suahila Shankar, Sunay Joshi, Arnab Dey, Angshu Dey, Jeffrey Chen (Berkeley), Christian French, Amishi Mittal, and Maria-Christina Nicolaides.
+   - Masters: Hugh Krogh-Freeman, Huda Qureshi, Nav Ravindranath, Melody Shi, and Akshay Sripada.
+   - Undergraduate: Ronil Awalegaonkar, Tassneen Bashir, Thomas Bueler-Faudree, Danielle Cai, Gary Casey, Yanda (David) Chen, Shuran Chen, Akshay Choudhry, Yusong Sebastian Deng, Riley Fisher, Ria Garg, Imani Gosserand, Conner Greene, Daniel Halmos, Xinyi (Jessy) Han, Peter Jin, Stephanie Jung, Joshua Kapilian, Andrew Kluzny, Alexander Kucher, Woosuk Lee, Xinyi Li, Stan Liao, John Lord, Abraham Oh, Samuel Opuni, Ana Pérez-Villagómez, Rachit Rajat, Guillermo Rioboo, Sarah Samuel, Emma Schrechter, Avi Schwarzschild, Mirah Shi, Gabe Silverman, Johnathan Socoy, Gauri Talwar, Sophia White, Oni Zhang, and Max Zhao.
+   - High School: Dean Chapman, Jeffrey Chen, Arnab Dey, Angshu Dey, Christian French, Sunay Joshi, Yul Kim, Ana Mata-Payerro, Amishi Mittal, Maria-Christina Nicolaides, Suahila Shankar, and David Wang.
 
 ### Invited Talks
 
