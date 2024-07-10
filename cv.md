@@ -21,8 +21,10 @@ Flatiron Institute - Simons Foundation
 
 ### Fields of Specialization
 
-- Computational Mathematics with Applications to Coastal Storm Flooding
-- Other stuff
+- Computational methods for hyperbolic partial differential equations
+- Shallow geophysical mass flows and their applications such as storm induced flooding
+- Development of advanced computational approaches, such as adaptive mesh refinement, leveraging novel computational technologies.
+- Application of good software development practices as applied to scientific and engineering software
 
 ### Education
 
