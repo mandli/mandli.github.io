@@ -28,13 +28,22 @@ twitter_username: kylemandli
 github_username:  mandli
 linkedin_username: kyle-mandli
 
-# Build settings
+# Theme
 theme: minima
+
+# Build settings
+
 plugins:
   - jekyll-feed
   - jekyll-scholar
   - nokogiri
   - open-uri
+
+# Parser
+markdown: kramdown
+
+kramdown:
+  math_engine: katex
 
 # Bibtex
 scholar:

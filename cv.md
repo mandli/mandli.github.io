@@ -5,6 +5,8 @@ title: CV
 
 <h1><a href="/pdf/cv.pdf">Kyle T. Mandli, Ph.D.</a></h1>
 
+<a href="/pdf/cv.pdf">[PDF]</a>
+
 **Contact Information**
 Flatiron Institute - Simons Foundation
 <table style="width:75%">

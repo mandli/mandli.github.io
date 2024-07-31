@@ -20,6 +20,8 @@ group :jekyll_plugins do
   gem "jekyll-scholar"
   gem "nokogiri"
   gem "open-uri"
+  gem "kramdown"
+  gem "kramdown-math-katex"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

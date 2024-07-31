@@ -2,6 +2,10 @@
 layout: page
 ---
 
+![Surface of storm surge during Hurricane Ike](img/latex_surface.jpeg "Hurricane Ike Storm Surge")
+<center>Storm surge from Hurricane Ike.</center>
+<br>
+
 Welcome to Kyle's page.  This site is heavily under construction currently so please stay tuned for active updates.
 
 ### Bio
@@ -10,5 +14,3 @@ Kyle is currently a research scientist at the [Center for Computational Mathemat
 
 He has been an active member of the [Society for Industrial and Applied Mathematics (SIAM)](https://www.siam.org) and the [American Geophysical Union (AGU)](https://www.agu.org) organizing a number of symposia and workshops on the topics of high-performance computing and issues related to wave-propagation problems.  He is also one of the primary developers of the open-source package [ClawPack (Conservation Laws Package)](http://www.clawpack.org) as well as [GeoClaw](http://depts.washington.edu/clawpack/geoclaw/), a package for modeling shallow geophysical flows including storm surge, and [PyClaw](http://www.clawpack.org/pyclaw/), a high-performance library to do the same in Python.
 
-![Surface of storm surge during Hurricane Ike](img/latex_surface.jpeg "Hurricane Ike Storm Surge")
-<center>Storm surge from Hurricane Ike.</center>
