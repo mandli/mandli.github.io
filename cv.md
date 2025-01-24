@@ -19,11 +19,11 @@ title: CV
     </tr>
 </table>
 
-### Research Interests
+## Research Interests
 
 **Computational mathematics** with applications to **coastal floods** and other **geophysical hazards**. Includes numerical methods for hyperbolic PDEs, high performance computing, and software development practices in scientific and engineering software.
 
-### Education
+## Education
 
 - **Ph.D., University of Washington, Applied Mathematics**, August 2011
     - Advisor: Randall J. LeVeque
@@ -31,7 +31,7 @@ title: CV
 - **M.Sc., University of Washington, Applied Mathematics**, June 2005
 - **B.S. Applied Mathematics, Engineering and Physics, University of Wisconsin**, May 2004
 
-### Positions
+## Positions
 - NSF NCAR - Climate and Global Dynamics
     - Project Scientist January 2025 - Present
 - Flatiron Institute - Center for Computational Mathematics, Simons Foundation
@@ -48,7 +48,7 @@ title: CV
     - Research Assistant, 2004-2011.
     - Teaching Assistant, 2004-2010.
 
-### Publications
+## Publications
 
 **[Google Scholar](https://scholar.google.com/citations?user={{ site.data.scholar.id }})**
 <table style="width:25%">
@@ -79,7 +79,7 @@ title: CV
 
 {% bibliography --file articles.bib --query @book %}
 
-### Open Source Software
+## Open Source Software
 
 - **Numerical Methods Course Notes** - Open source teaching materials developed as interactive Jupyter notebooks for teaching numerical methods courses.  Available from <https://github.com/mandli/intro-numerical-methods> and <https://github.com/mandli/numerical-methods-pdes>.
 - **PyClaw** - A scalable nonlinear wave propagation solver in Python.  Available from <http://www.github.com/clawpack/pyclaw>.
@@ -88,7 +88,7 @@ title: CV
 
 - **Clawpack** - Conservation Laws Package, a nonlinear wave propagation solver.  Available from <http://www.github.com/clawpack/>.
 
-### Teaching 
+## Teaching 
 
 **Instructor**
  - *APMA 6901* - Finite Volume Methods for Hyperbolic PDEs
@@ -121,7 +121,7 @@ title: CV
    - Undergraduate: Ronil Awalegaonkar, Tassneen Bashir, Thomas Bueler-Faudree, Danielle Cai, Gary Casey, Yanda (David) Chen, Shuran Chen, Akshay Choudhry, Yusong Sebastian Deng, Riley Fisher, Ria Garg, Imani Gosserand, Conner Greene, Daniel Halmos, Xinyi (Jessy) Han, Peter Jin, Stephanie Jung, Joshua Kapilian, Andrew Kluzny, Alexander Kucher, Woosuk Lee, Xinyi Li, Stan Liao, John Lord, Abraham Oh, Samuel Opuni, Ana Pérez-Villagómez, Rachit Rajat, Guillermo Rioboo, Sarah Samuel, Emma Schrechter, Avi Schwarzschild, Mirah Shi, Gabe Silverman, Johnathan Socoy, Gauri Talwar, Sophia White, Oni Zhang, and Max Zhao.
    - High School: Dean Chapman, Jeffrey Chen, Arnab Dey, Angshu Dey, Christian French, Sunay Joshi, Yul Kim, Ana Mata-Payerro, Amishi Mittal, Maria-Christina Nicolaides, Suahila Shankar, and David Wang.
 
-### Invited Talks
+## Invited Talks
 
 - Keynote Speaker at CSDMS 2024 Meeting, May 16th, 2024
 - Flatiron Institute CCM Seminar, October 24th, 2023
@@ -194,13 +194,13 @@ title: CV
 - SIAM Annual Meeting, San Diego, CA, July, 2008
 - SIAM Computational Science and Engineering, Costa Mesa, CA, February 21, 2007
 
-### Affiliations
+## Affiliations
  - Society for Industrial and Applied Mathematics
  - American Geophysical Union
  - American Mathematical Society
  - United States Association of Computational Mechanics
 
-### Service
+## Service
 
 **Columbia:**
  - Masters Student Advisor
