@@ -8,15 +8,14 @@ title: CV
 <a href="/pdf/cv.pdf">[PDF]</a>
 
 **Contact Information**
-NSF NCAR - Climate and Global Dynamics Lab
 <table style="width:75%">
     <tr>
         <td style="text-align:left">NSF NCAR</td> 
         <td style="text-align:right">Climate and Global Dynamics Lab</td>
     </tr>
     <tr>
-        <td style="text-align:left"><b>e-mail:</b> kyle mandli at gmail.com<br>
-        <b>Voice:</b>(206) 250-3731</td>
+        <td style="text-align:left"><b>e-mail:</b> kyle mandli at gmail.com</td>
+        <td><b>Voice:</b>(206) 250-3731</td>
     </tr>
 </table>
 
