@@ -65,19 +65,19 @@ title: CV
 
 **Submitted and Preprints**
 
-{% bibliography --file articles.bib --query @unpublished %}
+{% bibliography --file my_pubs.bib --query @unpublished %}
 
 **Journal Articles**
 
-{% bibliography --file articles.bib --query @article %}
+{% bibliography --file my_pubs.bib --query @article %}
 
 **Conference Proceedings**
 
-{% bibliography --file articles.bib --query @inproceedings %}
+{% bibliography --file my_pubs.bib --query @inproceedings %}
 
 **Books**
 
-{% bibliography --file articles.bib --query @book %}
+{% bibliography --file my_pubs.bib --query @book %}
 
 ## Open Source Software
 
