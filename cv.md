@@ -8,25 +8,21 @@ title: CV
 <a href="/pdf/cv.pdf">[PDF]</a>
 
 **Contact Information**
-Flatiron Institute - Simons Foundation
+NSF NCAR - Climate and Global Dynamics Lab
 <table style="width:75%">
     <tr>
-        <td style="text-align:left">Flatiron Institute<br>Simons Foundation</td> 
-        <td style="text-align:right">Center for Computational Mathematics</td>
+        <td style="text-align:left">NSF NCAR</td> 
+        <td style="text-align:right">Climate and Global Dynamics Lab</td>
     </tr>
     <tr>
-        <td>162 5th Ave.<br>New York, NY 10010</td>
         <td style="text-align:left"><b>e-mail:</b> kyle mandli at gmail.com<br>
         <b>Voice:</b>(206) 250-3731</td>
     </tr>
 </table>
 
-### Fields of Specialization
+### Research Interests
 
-- Computational methods for hyperbolic partial differential equations
-- Shallow geophysical mass flows and their applications such as storm induced flooding
-- Development of advanced computational approaches, such as adaptive mesh refinement, leveraging novel computational technologies.
-- Application of good software development practices as applied to scientific and engineering software
+**Computational mathematics** with applications to **coastal floods** and other **geophysical hazards**. Includes numerical methods for hyperbolic PDEs, high performance computing, and software development practices in scientific and engineering software.
 
 ### Education
 
@@ -37,9 +33,10 @@ Flatiron Institute - Simons Foundation
 - **B.S. Applied Mathematics, Engineering and Physics, University of Wisconsin**, May 2004
 
 ### Positions
-
+- NSF NCAR - Climate and Global Dynamics
+    - Project Scientist January 2025 - Present
 - Flatiron Institute - Center for Computational Mathematics, Simons Foundation
-    - Research Scientist, October 2023 - Present
+    - Research Scientist, October 2023 - December 2024
 - Department of Applied Physics and Applied Mathematics, Columbia University
     - Assistant Professor, July 2014 - June 2019.
     - Associate Professor, July 2019 - June 2023
@@ -54,22 +51,6 @@ Flatiron Institute - Simons Foundation
 
 ### Publications
 
-**Submitted**
-
-{% bibliography --file articles.bib --query @unpublished %}
-
-**Published Refereed Journal Papers**
-
-{% bibliography --file articles.bib --query @article %}
-
-**Conference Proceedings**
-
-{% bibliography --file articles.bib --query @inproceedings %}
-
-**Books**
-
-{% bibliography --file articles.bib --query @book %}
-
 **[Google Scholar](https://scholar.google.com/citations?user={{ site.data.scholar.id }})**
 <table style="width:25%">
     <tr>
@@ -83,8 +64,23 @@ Flatiron Institute - Simons Foundation
     </tr>
 </table>
 
+**Submitted and Preprints**
 
-### Software
+{% bibliography --file articles.bib --query @unpublished %}
+
+**Journal Articles**
+
+{% bibliography --file articles.bib --query @article %}
+
+**Conference Proceedings**
+
+{% bibliography --file articles.bib --query @inproceedings %}
+
+**Books**
+
+{% bibliography --file articles.bib --query @book %}
+
+### Open Source Software
 
 - **Numerical Methods Course Notes** - Open source teaching materials developed as interactive Jupyter notebooks for teaching numerical methods courses.  Available from <https://github.com/mandli/intro-numerical-methods> and <https://github.com/mandli/numerical-methods-pdes>.
 - **PyClaw** - A scalable nonlinear wave propagation solver in Python.  Available from <http://www.github.com/clawpack/pyclaw>.
