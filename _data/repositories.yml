@@ -1,14 +1,13 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - mandli
+  - clawpack
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+    - clawpack/geoclaw
+    - clawpack/pyclaw
+    - clawpack/amrclaw
+    - mandli/surge-examples
+    - mandli/intro-numerical-methods
+    - mandli/numerical-methods-pdes
