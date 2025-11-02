@@ -7,14 +7,16 @@
 #  username:  AlbertEinstein # your username
 # acm_id: # your dl.acm.org/profile/id
 # blogger_url: # your blogger URL
+mastodon_username: mastodon.social/@mandli
 bluesky_url: https://bsky.app/profile/mandli.bsky.social
+linkedin_username: kyle-mandli
 # dblp_url: # your DBLP profile url
 # discord_id: # your discord id (18-digit unique numerical identifier)
 email: kyle.mandli@gmail.com # your email address
 # facebook_id: # your facebook id
 # flickr_id: # your flickr id
 github_username: mandli
-gitlab_username: mandli
+# gitlab_username: mandli
 # hal_id: # your HAL id (https://hal.science/)
 # ieee_id: # your ieeexplore.ieee.org/author/id
 # inspirehep_id: 1010907 # Inspire HEP author ID
@@ -24,17 +26,15 @@ gitlab_username: mandli
 # lastfm_id: # your lastfm id
 # lattes_id: # your ID on Lattes (Brazilian Lattes CV)
 # leetcode_id: # your LeetCode id
-linkedin_username: kyle-mandli
-mastodon_username: mastodon.social/@mandli
 # medium_username: # your Medium username
 orcid_id: 0000-0002-8267-5989
-osf_id: en2ra
+scholar_userid: gsX-cv8AAAAJ # your Google Scholar ID
+# osf_id: 
 # pinterest_id: # your pinterest id
 # publons_id: # your ID on Publons
 # quora_username: # your Quora username
 # research_gate_profile: # your profile on ResearchGate
 rss_icon: true # comment this line to hide the RSS icon
-scholar_userid: gsX-cv8AAAAJ # your Google Scholar ID
 # scopus_id: # your profile on Scopus
 # semanticscholar_id: # your Semantic Scholar ID
 # spotify_id: # your spotify id
