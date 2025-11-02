@@ -39,7 +39,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "CV and brief resume",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -550,7 +550,7 @@ ninja.data = [{
         title: 'Open Science Framework',
         section: 'Socials',
         handler: () => {
-          window.open("https://osf.io/https://osf.io/en2ra//", "_blank");
+          window.open("https://osf.io/en2ra/", "_blank");
         },
       },{
         id: 'social-rss',
