@@ -25,13 +25,13 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "Projects",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
           },
         },{id: "nav-repositories",
-          title: "Repositories",
+          title: "repositories",
           description: "",
           section: "Navigation",
           handler: () => {
@@ -44,35 +44,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-teaching",
-          title: "teaching",
-          description: "Materials for courses you taught. Replace this text with your description.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/teaching/";
-          },
-        },{id: "nav-people",
-          title: "people",
-          description: "members of the lab or group",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/people/";
-          },
-        },{id: "dropdown-bookshelf",
-              title: "bookshelf",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/books/";
-              },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/blog/";
-              },
-            },{id: "post-introduction",
+        },{id: "post-introduction",
         
           title: "Introduction",
         
@@ -83,21 +55,26 @@ ninja.data = [{
             window.location.href = "/blog/2025/first-post/";
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-test-post",
-          title: 'Test post',
+      },{id: "news-new-paper-quot-assessment-of-caribbean-coastal-hazard-posed-by-tropical-cyclones-quot",
+          title: 'New Paper &amp;quot;Assessment of Caribbean Coastal Hazard Posed by Tropical Cyclones&amp;quot;',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/announcement_1/";
+              window.location.href = "/news/paper_hemmati_2025/";
+            },},{id: "projects-climate-change-impact-on-coastal-risk",
+          title: 'Climate Change Impact on Coastal Risk',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/climate/";
             },},{id: "projects-geoclaw",
           title: 'GeoClaw',
-          description: "with background image",
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/geoclaw/";
+            },},{id: "projects-pyclaw",
+          title: 'PyClaw',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/pyclaw/";
             },},{
         id: 'social-mastodon',
         title: 'Mastodon',
