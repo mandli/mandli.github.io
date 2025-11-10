@@ -2,12 +2,17 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Projects
+description: 
 nav: true
 nav_order: 3
-display_categories: [current, past]
+# display_categories: [current, past]
+display_categories:
 horizontal: false
 ---
+
+Under construction...
+
+In the mean time check out the [Clawpack website](https://www.clawpack.org) or my [github profile](https://github.com/mandli).
 
 <!-- pages/projects.md -->
 <div class="projects">

@@ -225,7 +225,6 @@ GEM
       stringio
       time
       uri
-    ostruct (0.6.1)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (6.0.2)
@@ -309,8 +308,8 @@ DEPENDENCIES
   jekyll-toc
   jekyll-twitter-plugin
   jemoji
+  logger
   observer
-  ostruct
 
 BUNDLED WITH
    2.6.9

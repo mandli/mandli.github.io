@@ -1,6 +1,6 @@
 ---
 layout: page
-title: GeoClaw
+title: PyClaw
 description: 
 img: assets/img/geoclaw.jpg
 importance: 1

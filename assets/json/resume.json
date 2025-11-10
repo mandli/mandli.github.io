@@ -1,200 +1,144 @@
 {
   "basics": {
-    "name": "Albert Einstein",
+    "name": "Kyle T. Mandli",
     "label": "Scientist",
-    "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "kyle.mandli@gmail.com",
+    "phone": "+1 (206) 250 3731",
+    "url": "https://kylemandli.com",
+    "summary": "Computational mathematician interested in applications to coastal floods and other geophysical hazards. Includes numerical methods for hyperbolic PDEs, high performance computing, and software development practices in scientific and engineering software.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "",
+      "postalCode": "",
+      "city": "Brooklyn",
       "countryCode": "US",
-      "region": "California"
+      "region": "New York"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "Bluesky",
+        "username": "@mandli",
+        "url": "https://bsky.app/profile/mandli.bsky.social"
+      },
+      {
+        "network": "Mastodon",
+        "username": "@mandli",
+        "url": "https://mastodon.social/@mandli"
+      },
+      {
+        "network": "GitHub",
+        "username": "@mandli",
+        "url": "https://github.com/mandli"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
+      "company": "NSF-NCAR",
+      "position": "Scientist",
+      "url": "https://ncar.ucar.edu",
+      "startDate": "2025-01-06",
+      "endDate": "",
+      "summary": "",
+      "highlights": [],
+      "name": "NSF-NCAR",
+      "location": "Boulder"
+    },
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "company": "Simons Foundation - Flatiron Institute",
+      "position": "Research Scientist",
+      "url": "https://www.simonsfoundation.org/flatiron/",
+      "startDate": "2023-10-02",
+      "endDate": "2024-12-31",
+      "summary": "",
+      "highlights": [],
+      "name": "Simons Foundation - Flatiron Institute",
+      "location": "New York"
+    },
+    {
+      "name": "Columbia University - Applied Physics and Applied Mathematics Department",
+      "position": "Professor",
+      "startDate": "2014-07-01",
+      "endDate": "2023-10",
+      "location": "New York, NY",
+      "url": "https://apam.columbia.edu",
+      "summary": "",
+      "description": "",
+      "highlights": []
+    },
+    {
+      "name": "University of Texas at Austin - ICES",
+      "position": "Postdoctoral Research Fellow",
+      "startDate": "2011-09",
+      "endDate": "2014-07",
+      "location": "Austin, TX",
+      "url": "https://oden.utexas.edu",
+      "summary": "",
+      "description": "",
+      "highlights": []
+    },
+    {
+      "name": "University of Washington - Applied Mathematics Department",
+      "position": "Research/Teaching Assistant",
+      "startDate": "2004-09",
+      "endDate": "2011-08",
+      "location": "Seattle, WA",
+      "url": "https://amath.washington.edu",
+      "summary": "",
+      "description": "",
+      "highlights": []
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "institution": "University of Washington",
+      "area": "Applied Mathematics",
+      "studyType": "Ph.D.",
+      "startDate": "2004-10-01",
+      "endDate": "2011-08-01"
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
+      "institution": "University of Washington",
+      "area": "Applied Mathematics",
+      "studyType": "M.S.",
+      "startDate": "2004-10-01",
+      "endDate": "2005-06-01"
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
-    }
-  ],
-  "skills": [
-    {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
-    },
-    {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
+      "institution": "University of Wisconsin",
+      "area": "Applied Mathematics, Engineering and Physics",
+      "studyType": "B.S.",
+      "startDate": "2000-09-01",
+      "endDate": "2004-05-01"
     }
   ],
   "interests": [
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "name": "computational mathematics",
+      "keywords": []
     },
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
+      "name": "coastal flooding",
+      "keywords": []
+    },
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "geophysical hazards",
+      "keywords": []
+    },
+    {
+      "name": "computational science",
+      "keywords": []
+    },
+    {
+      "name": "numerical methods for hyperbolic PDEs",
+      "keywords": []
+    },
+    {
+      "name": "high performance computing",
+      "keywords": []
+    },
+    {
+      "name": "scientific and engineering software development",
+      "keywords": []
     }
   ]
 }
