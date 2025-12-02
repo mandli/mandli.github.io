@@ -60,6 +60,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/paper_hemmati_2025/";
+            },},{id: "news-test-post",
+          title: 'Test post',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/test_announcement/";
             },},{id: "projects-climate-change-impact-on-coastal-risk",
           title: 'Climate Change Impact on Coastal Risk',
           description: "",
