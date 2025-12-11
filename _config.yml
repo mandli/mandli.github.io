@@ -251,7 +251,7 @@ jekyll-archives:
       tags: "/blog/:type/:name/"
       categories: "/blog/:type/:name/"
   # books:
-    # enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+  # enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
 display_tags: []
 display_categories: []

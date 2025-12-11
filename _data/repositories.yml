@@ -4,9 +4,9 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
-    - clawpack/geoclaw
-    - clawpack/pyclaw
-    - clawpack/amrclaw
-    - mandli/surge-examples
-    - mandli/intro-numerical-methods
-    - mandli/numerical-methods-pdes
+  - clawpack/geoclaw
+  - clawpack/pyclaw
+  - clawpack/amrclaw
+  - mandli/surge-examples
+  - mandli/intro-numerical-methods
+  - mandli/numerical-methods-pdes

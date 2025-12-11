@@ -1,7 +1,7 @@
 ---
 layout: page
 title: GeoClaw
-description: 
+description:
 img: assets/img/geoclaw.jpg
 importance: 1
 category: work

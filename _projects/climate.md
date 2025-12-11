@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Climate Change Impact on Coastal Risk 
-description: 
+title: Climate Change Impact on Coastal Risk
+description:
 img: assets/img/geoclaw.jpg
 importance: 1
 category: work

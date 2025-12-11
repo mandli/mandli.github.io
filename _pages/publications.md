@@ -17,5 +17,4 @@ nav_order: 2
 
 {% bibliography --query !@unpublished %}
 
-
 </div>
