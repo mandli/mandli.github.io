@@ -55,16 +55,16 @@ ninja.data = [{
             window.location.href = "/blog/2025/first-post/";
           
         },
-      },{id: "news-new-paper-quot-assessment-of-caribbean-coastal-hazard-posed-by-tropical-cyclones-quot",
+      },{id: "news-simons-foundation-article-published",
+          title: 'Simons Foundation Article Published',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/simons_article_2025/";
+            },},{id: "news-new-paper-quot-assessment-of-caribbean-coastal-hazard-posed-by-tropical-cyclones-quot",
           title: 'New Paper &amp;quot;Assessment of Caribbean Coastal Hazard Posed by Tropical Cyclones&amp;quot;',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/paper_hemmati_2025/";
-            },},{id: "news-test-post",
-          title: 'Test post',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/test_announcement/";
             },},{id: "projects-climate-change-impact-on-coastal-risk",
           title: 'Climate Change Impact on Coastal Risk',
           description: "",
