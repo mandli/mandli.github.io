@@ -12,7 +12,7 @@ horizontal: false
 
 Under construction...
 
-In the mean time check out the [Clawpack website](https://www.clawpack.org) or my [github profile](https://github.com/mandli).
+In the mean time check out the [Clawpack website](https://www.clawpack.org), my [github profile](https://github.com/mandli), or my [google scholar](https://scholar.google.com/citations?user=gsX-cv8AAAAJ&hl=en&oi=ao) pages.
 
 <!-- pages/projects.md -->
 <div class="projects">

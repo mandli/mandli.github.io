@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: prof_pic1.jpg
+  image: prof_pic2.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <a href='https://ncar.ucar.edu'>NSF-NCAR Scientist</a><br>
@@ -31,7 +31,7 @@ Applied mathematician, computational scientist and coastal flood modeler with an
 
 ### Research Interests
 
-**Computational mathematics** with applications to **coastal floods** and other **geophysical hazards**. Includes numerical methods for hyperbolic PDEs, high performance computing, and software development practices in scientific and engineering software.
+Numerical analysis and scientific computing for nonlinear hyperbolic PDEs, including adaptive methods, uncertainty quantification, and high-performance computational frameworks. Applications to coastal flooding, geophysical hazards, and related transport-dominated systems.
 
 ### Bio
 
