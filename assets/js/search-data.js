@@ -65,21 +65,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/paper_hemmati_2025/";
-            },},{id: "projects-climate-change-impact-on-coastal-risk",
-          title: 'Climate Change Impact on Coastal Risk',
-          description: "",
+            },},{id: "projects-coastal-flooding-amp-storm-surge-modeling",
+          title: 'Coastal Flooding &amp;amp; Storm Surge Modeling',
+          description: "Development of high-resolution, adaptive numerical models for storm surge and coastal flooding, with applications to urban infrastructure, compound flooding, and climate-driven risk assessment.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/climate/";
-            },},{id: "projects-geoclaw",
-          title: 'GeoClaw',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/geoclaw/";
-            },},{id: "projects-pyclaw",
-          title: 'PyClaw',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/pyclaw/";
+              window.location.href = "/projects/coastal_flooding_storm_surge/";
             },},{
         id: 'social-mastodon',
         title: 'Mastodon',
