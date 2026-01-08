@@ -70,6 +70,26 @@ ninja.data = [{
           description: "Development of high-resolution, adaptive numerical models for storm surge and coastal flooding, with applications to urban infrastructure, compound flooding, and climate-driven risk assessment.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/coastal_flooding_storm_surge/";
+            },},{id: "projects-convergence-science-amp-decision-support",
+          title: 'Convergence Science &amp;amp; Decision Support',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/convergence_science_decision_support/";
+            },},{id: "projects-numerical-methods-for-hyperbolic-pdes",
+          title: 'Numerical Methods for Hyperbolic PDEs',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/numerical_methods_hyperbolic_pdes/";
+            },},{id: "projects-open-source-scientific-software",
+          title: 'Open Source Scientific Software',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/open_source_software/";
+            },},{id: "projects-uncertainty-quantification-and-risk",
+          title: 'Uncertainty Quantification and Risk',
+          description: "Quantifying, propagating, and interpreting uncertainty in computational models of geophysical hazards and climate-driven risk.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/uncertainty_risk/";
             },},{
         id: 'social-mastodon',
         title: 'Mastodon',
