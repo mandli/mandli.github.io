@@ -9,10 +9,17 @@ related_publications: true
 keywords: AMR, shallow water equations, uncertainty quantification, climate risk
 ---
 
-{% include figure.liquid loading="eager" path="assets/img/sandy_plus.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-{% include figure.liquid loading="eager" path="assets/img/sandy_plus.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-
-<!-- {% include figure.liquid loading="eager" path="assets/img/sandy_plus.jpg" title="example image" class="img-fluid rounded z-depth-1" %} -->
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/sandy_nyc/S10_L00_AT/surface_nyc.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/sandy_nyc/S12_L05_AT/surface_nyc.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Hurricane Sandy simulations using <a href="https://github.com/clawpack/geoclaw">GeoClaw</a> 4 hours before land fall in different scenarios. Left: Original storm and mean sea-level. Right: Hypothetical scenario with Hurricane Sandy with increased wind strength by 20% and sea-level set to 50 cm above mean sea-level.
+</div>
 
 # Overview
 
