@@ -6,26 +6,54 @@ img: assets/img/sandy_nyc/S12_L05_AT/surface_nyc.png
 importance: 1
 category: work
 related_publications: true
-keywords: AMR, shallow water equations, uncertainty quantification, climate risk
+tags: AMR, shallow water equations, uncertainty quantification, climate risk
 ---
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/sandy_nyc/S10_L00_AT/surface_nyc.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/sandy_nyc/S12_L05_AT/surface_nyc.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Hurricane Sandy simulations using <a href="https://github.com/clawpack/geoclaw">GeoClaw</a> 4 hours before land fall in different scenarios. Left: Original storm and mean sea-level. Right: Hypothetical scenario with Hurricane Sandy with increased wind strength by 20% and sea-level set to 50 cm above mean sea-level.
-</div>
+---
+
+_Adaptive numerical modeling of storm surge and coastal flooding, from algorithms and open-source software to climate-driven risk assessment in urban and coastal environments._
+
+---
+
+**Jump to:** [Methods](#methods--technical-approach) · [Applications](#applications--case-studies) · [Outcomes](#outcomes) · [References](#related)
+
+---
 
 # Overview
 
 Coastal flooding driven by storm surge, tides, waves, and river inflows poses increasing risks to coastal communities and critical infrastructure. This project develops numerically robust, high-resolution models for coastal flooding that integrate advanced numerical methods with real-world geophysical complexity, enabling both scientific insight and actionable risk assessment.
 
 My work in this area spans algorithm development, open-source software, and applied modeling, with applications ranging from hurricanes and tsunamis to compound flooding in urban environments under climate change. Much of this work is implemented through open-source modeling frameworks including [GeoClaw](https://github.com/clawpack/geoclaw) and [AMRClaw](https://github.com/clawpack/amrclaw), which are part of the broader [Clawpack](https://www.clawpack.org) ecosystem.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/sandy_nyc/S10_L00_AT/surface_nyc.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/sandy_nyc/S10_L00_AT/currents_nyc.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/sandy_nyc/S12_L05_AT/surface_nyc.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/sandy_nyc/S12_L05_AT/currents_nyc.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/sandy_nyc/surface_colorbar_horizontal.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/sandy_nyc/speed_colorbar_horizontal.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Hurricane Sandy simulations in the New York City region using <a href="https://github.com/clawpack/geoclaw">GeoClaw</a>.
+Surface elevation (left) and flow speed (right) four hours before landfall.
+Top: historical storm and mean sea level. Bottom: hypothetical scenario with +20% wind strength and +50 cm sea-level rise.
+</div>
 
 ## Key Scientific Questions
 
@@ -47,10 +75,10 @@ My contributions focus on bridging theory, algorithms, and software while ensuri
 
 This project combines several methodological threads:
 
-- Depth-averaged and multilayer shallow water equations for storm surge and inundation
-- Adaptive mesh refinement (AMR) to dynamically resolve coastlines, barriers, and urban features (e.g. {% cite MandliDawson.2014 BergerEtAl.2011 %})
-- Finite-volume methods designed to handle dry states, wetting/drying, and complex bathymetry {% cite %}
-- Coupling strategies for coastal–hydrologic interactions and compound flooding
+- Depth-averaged and multilayer shallow water equations <d-cite key="Mandli.2013"></d-cite> <d-cite key="Schwarzschild.2018"></d-cite> for storm surge and inundation
+- Adaptive mesh refinement (AMR) to dynamically resolve coastlines, barriers, and urban features (e.g. {% cite MandliDawson.2014 %})
+- Finite-volume methods designed to handle dry states, wetting/drying, and complex bathymetry {% cite Berger.2011 %}
+- Coupling strategies for coastal–hydrologic interactions and compound flooding {% cite Hamidi.2025 %}
 - Uncertainty quantification using surrogate models, ensembles, and probabilistic frameworks
 - High-performance computing for large-scale and ensemble simulations
 
@@ -62,11 +90,23 @@ Representative applications include:
 
 - Hurricane-driven storm surge and inundation along U.S. coastlines
 - Urban flood risk for critical infrastructure (e.g. New York City transportation systems; {% cite Miura.2025 Sarhadi.2024 %})
-- Barrier island breaching and morphodynamic impacts on mainland flooding ({% cite 10.5194/nhess-25-3125-2025 %})
-- Compound flooding from storm surge, tides, precipitation, and river discharge
-- Climate change scenarios, including sea level rise and changing storm characteristics
+- Barrier island breaching and morphodynamic impacts on mainland flooding {% cite Jeffries.2025 Hoagland.2023 %}
+- Compound flooding from storm surge, tides, precipitation, and river discharge {% cite Hamidi.2025 Chegini.2022 Muñoz.2022 %}
+- Climate change scenarios, including sea level rise and changing storm characteristics {% cite Sarhadi.2024 Hamidi.2025 %}
 
-Many studies are developed in collaboration with climate scientists, engineers, planners, and decision-makers to ensure relevance beyond academia.
+Together, these case studies emphasize the importance of resolving fine-scale coastal features while retaining regional context, particularly under nonstationary climate conditions. Many studies are developed in collaboration with climate scientists, engineers, planners, and decision-makers to ensure relevance beyond academia.
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/sandy_nyc/fig6_b-1136.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/sandy_nyc/14ftHeightFloodBopenings-1159_m.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Left: Changes in the return curves for Jamaica Bay NYC for the current climate (blue), projected climate in 2050 (orange), and projected climate in 2100 (red) from {% cite Sarhadi.2024 %}. Right: Flooding risk to lower Manhattan subway lines with number of openings into the subway from {% cite Miura.2025 %}.
+</div>
 
 ## Outcomes
 
@@ -77,10 +117,10 @@ Many studies are developed in collaboration with climate scientists, engineers, 
 
 ### Software
 
-- **GeoClaw** – Open-source storm surge and tsunami modeling software with adaptive mesh refinement <https://github.com/clawpack/geoclaw>
-- **PyClaw** – Python-based framework for solving hyperbolic PDEs and prototyping numerical methods <https://github.com/clawpack/pyclaw>
-- Long-term development of open-source coastal flooding and storm surge modeling tools
-- Widely used research and educational codes supporting reproducible science
+- **GeoClaw** – Open-source storm surge and tsunami modeling software with adaptive mesh refinement  
+  <https://github.com/clawpack/geoclaw>
+- **PyClaw** – Python-based framework for solving hyperbolic PDEs and prototyping numerical methods  
+  <https://github.com/clawpack/pyclaw>
 
 ### Impact
 
@@ -108,11 +148,12 @@ Many projects involve multi-institutional collaborations linking academia, natio
 ### Selected Publications
 
 - Optimization of coastal protection {% cite Miura.2025 %}
-- Climate Change Contributions to compound flooding {% cite Sarhadi.2024  %}
+- Climate change contributions to compound flooding {% cite Sarhadi.2024  %}
 - Coastal flood hazards due to climate change {% cite Hemmati.2025 %}
 - Coupled coastal-hydrologic modeling {% cite Hamidi.2025 %}
 
-### Related Initiativs
+### Related Initiatives
 
 - [NASA Sea Level Change Team](https://sealevel.nasa.gov)
-- Extra-tropical storms (e.g. nor'easters)
+- Change in coastal surge risk from extra-tropical storms (e.g. nor’easters)
+- [Assessing the public health risk due to tropical cyclone impacts on petrochemical facilities](https://www.nationalacademies.org/programs/GULF-GHRB-22-P-468/awarded-projects#)
