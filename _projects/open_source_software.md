@@ -42,7 +42,7 @@ These tools are used internationally in research, education, and applied hazard 
 
 ## Design Principles
 
-These software efforts support research areas including [Numerical Methods for Hyperbolic PDEs](/projects/numerical_methods_hyperbolic_pdes/)￼and [Coastal Flooding & Storm Surge Modeling](/projects/coastal_flooding_storm_surge/).
+These software efforts support research areas including [Numerical Methods for Hyperbolic PDEs]({% link _projects/numerical_methods_hyperbolic_pdes.md %})￼and [Coastal Flooding & Storm Surge Modeling]({% link _projects/coastal_flooding_storm_surge.md %}).
 
 - Close coupling between **numerical methods and software architecture**
 - Performance portability across HPC platforms

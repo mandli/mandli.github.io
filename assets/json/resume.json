@@ -1,9 +1,8 @@
 {
   "basics": {
     "name": "Kyle T. Mandli",
-    "label": "Scientist",
+    "label": "mathematician and Scientist",
     "email": "kyle.mandli@gmail.com",
-    // "phone": "+1 (206) 250 3731",
     "url": "https://kylemandli.com",
     "summary": "Computational mathematician interested in applications to coastal floods and other geophysical hazards. Includes numerical methods for hyperbolic PDEs, high performance computing, and software development practices in scientific and engineering software.",
     "location": {
@@ -34,7 +33,7 @@
   "work": [
     {
       "company": "NSF-NCAR",
-      "position": "Scientist",
+      "position": "Scientist IV",
       "url": "https://ncar.ucar.edu",
       "startDate": "2025-01-06",
       "endDate": "",

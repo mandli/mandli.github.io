@@ -53,9 +53,9 @@ These methods often serve as the numerical backbone for larger modeling framewor
 
 This work underpins several related efforts, including:
 
-- [Coastal Flooding & Storm Surge Modeling](/projects/coastal_flooding_storm_surge/)
-- [Uncertainty Quantification & Risk](/projects/uncertainty_risk/)
-- [Open-Source Scientific Software](/projects/open_source_software/)
+- [Coastal Flooding & Storm Surge Modeling]({% link _projects/coastal_flooding_storm_surge.md %})
+- [Uncertainty Quantification & Risk]({% link _projects/uncertainty_risk.md %})
+- [Open-Source Scientific Software]({% link _projects/open_source_software.md %})
 
 ## Representative Publications
 
