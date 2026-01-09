@@ -96,16 +96,21 @@ Representative applications include:
 
 Together, these case studies emphasize the importance of resolving fine-scale coastal features while retaining regional context, particularly under nonstationary climate conditions. Many studies are developed in collaboration with climate scientists, engineers, planners, and decision-makers to ensure relevance beyond academia.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-6 mt-3 mt-md-0">
+<div class="row justify-content-sm-left">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/sandy_nyc/fig6_b-1136.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/sandy_nyc/14ftHeightFloodBopenings-1159_m.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-3 md-md-0">
+        Changes in the return curves for Jamaica Bay NYC for the current climate (blue), projected climate in 2050 (orange), and projected climate in 2100 (red) from {% cite Sarhadi.2024 %}.
     </div>
 </div>
-<div class="caption">
-    Left: Changes in the return curves for Jamaica Bay NYC for the current climate (blue), projected climate in 2050 (orange), and projected climate in 2100 (red) from {% cite Sarhadi.2024 %}. Right: Flooding risk to lower Manhattan subway lines with number of openings into the subway from {% cite Miura.2025 %}.
+<div class="row justify-content-sm-right">
+    <div class="col-sm mt-3 mt-md-0">
+        Flooding risk to lower Manhattan subway lines with number of openings into the subway from {% cite Miura.2025 %}.
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/sandy_nyc/14ftHeightFloodBopenings-1159_m.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
 
 ## Outcomes

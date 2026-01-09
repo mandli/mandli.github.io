@@ -6,13 +6,11 @@ description:
 nav: true
 nav_order: 3
 # display_categories: [current, past]
-display_categories:
+# display_categories:
 horizontal: false
 ---
 
-Under construction...
-
-In the mean time check out the [Clawpack website](https://www.clawpack.org), my [github profile](https://github.com/mandli), or my [google scholar](https://scholar.google.com/citations?user=gsX-cv8AAAAJ&hl=en&oi=ao) pages.
+My work focuses on numerical methods and open-source software for geophysical hazards, coastal flooding, and climate risk. The projects below summarize ongoing and recent efforts, with links to selected publications and software where relevant.
 
 <!-- pages/projects.md -->
 <div class="projects">
@@ -68,3 +66,9 @@ In the mean time check out the [Clawpack website](https://www.clawpack.org), my 
   {% endif %}
 {% endif %}
 </div>
+
+Other links to my work:
+
+- [Clawpack Website](https://www.clawpack.org)
+- [GitHub Profile](https://github.com/mandli)
+- [Google Scholar page](https://scholar.google.com/citations?user=gsX-cv8AAAAJ&hl=en&oi=ao)
