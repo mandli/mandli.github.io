@@ -64,7 +64,7 @@ Top: historical storm and mean sea level. Bottom: hypothetical scenario with +20
 
 ## My Role
 
-- Numerical methods lead for shallow-water and storm surge models
+- [Numerical methods](/projects/numerical_methods_hyperbolic_pdes/) lead for shallow-water and storm surge models
 - Core developer and maintainer of adaptive mesh refinement (AMR) coastal flow software
 - Principal investigator / co-investigator on multiple federally funded coastal flooding projects
 - Advisor and mentor to PhD students and postdocs developing next-generation flood models
@@ -122,6 +122,8 @@ Together, these case studies emphasize the importance of resolving fine-scale co
 
 ### Software
 
+All the work I do is done using [open-source software](/projects/open_source_software) frameworks and contributed freely to he wider community.
+
 - **GeoClaw** – Open-source storm surge and tsunami modeling software with adaptive mesh refinement  
   <https://github.com/clawpack/geoclaw>
 - **PyClaw** – Python-based framework for solving hyperbolic PDEs and prototyping numerical methods  
@@ -147,7 +149,7 @@ Many projects involve multi-institutional collaborations linking academia, natio
 ## Current Directions
 
 Current efforts emphasize compound flooding, climate-driven risk assessment,
-scalable uncertainty quantification, embedded coastal protections, and tighter integration with decision-support frameworks.
+scalable [uncertainty quantification](/projects/uncertainty_risk/), embedded coastal protections, and tighter integration with decision-support frameworks.
 
 ## Related
 

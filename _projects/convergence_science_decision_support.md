@@ -39,7 +39,7 @@ My role in these efforts often centers on translating advanced numerical models 
 - Collaborative leadership in interdisciplinary research teams
 - Support for policy- and planning-relevant climate assessments
 
-These efforts often build directly on technical work in coastal flooding and uncertainty quantification, while extending their reach and impact.
+Many of these efforts build directly on technical work in [Coastal Flooding & Storm Surge Modeling](/projects/coastal_flooding_storm_surge/) and [Uncertainty Quantification & Risk](/projects/uncertainty_risk/), extending their impact through interdisciplinary collaboration.
 
 ## Representative Publications
 

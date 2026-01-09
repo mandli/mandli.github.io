@@ -67,7 +67,7 @@ Representative applications include:
 - Evaluation of coastal protection strategies under uncertain future conditions
 - Interpretation of hazard uncertainty for stakeholder-facing studies
 
-Many of these efforts are closely linked to the [Coastal Flooding & Storm Surge Modeling](/projects/coastal_flooding_storm_surge) project, where uncertainty-aware methods are applied at scale.
+Many of these efforts are closely linked to the [Coastal Flooding & Storm Surge Modeling](/projects/coastal_flooding_storm_surge) project, where uncertainty-aware methods are applied at scale. This work also draws on foundational numerical methods described in [Numerical Methods for Hyperbolic PDEs](/projects/numerical_methods_hyperbolic_pdes/)
 
 ## Outcomes
 
@@ -79,7 +79,7 @@ Many of these efforts are closely linked to the [Coastal Flooding & Storm Surge 
 ### Impact
 
 - Risk metrics that move beyond deterministic flood maps
-- Improved communication of uncertainty to interdisciplinary collaborators
+- Improved [communication of uncertainty to interdisciplinary collaborators](/projects/convergence_science_decision_support/)
 - Support for climate adaptation and resilience planning under deep uncertainty
 
 ## Representative Publications
