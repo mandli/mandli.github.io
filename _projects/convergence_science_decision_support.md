@@ -46,7 +46,3 @@ These efforts often build directly on technical work in coastal flooding and unc
 - Convergence science and climate challenges {% cite Maldonado.2025 %}
 - Interdisciplinary and convergent geoscience research {% cite Finn.2022 Bukvic.2022 %}
 - Climate risk and adaptation frameworks {% cite Sarhadi.2024 Miura.2021 %}
-
-## Status
-
-**Ongoing**, with emphasis on collaborative research models, equitable knowledge integration, and climate-informed decision support.

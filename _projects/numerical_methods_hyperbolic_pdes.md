@@ -11,7 +11,7 @@ tags: hyperbolic PDEs, finite volume methods, adaptive mesh refinement, numerica
 
 # Overview
 
-This project focuses on the development of **robust numerical methods for nonlinear hyperbolic partial differential equations**, with an emphasis on transport-dominated systems arising in geophysical and environmental applications.
+In my research I focus on the development of **robust numerical methods for nonlinear hyperbolic partial differential equations**, with an emphasis on transport-dominated systems arising in geophysical and environmental applications.
 
 My work in this area combines numerical analysis, algorithm design, and large-scale computation, often motivated by challenges encountered in real-world coastal and hazard modeling.
 

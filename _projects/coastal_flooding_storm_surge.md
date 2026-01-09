@@ -21,7 +21,7 @@ _Adaptive numerical modeling of storm surge and coastal flooding, from algorithm
 
 # Overview
 
-Coastal flooding driven by storm surge, tides, waves, and river inflows poses increasing risks to coastal communities and critical infrastructure. This project develops numerically robust, high-resolution models for coastal flooding that integrate advanced numerical methods with real-world geophysical complexity, enabling both scientific insight and actionable risk assessment.
+Coastal flooding driven by storm surge, tides, waves, and river inflows poses increasing risks to coastal communities and critical infrastructure. This research develops numerically robust, high-resolution models for coastal flooding that integrate advanced numerical methods with real-world geophysical complexity, enabling both scientific insight and actionable risk assessment.
 
 My work in this area spans algorithm development, open-source software, and applied modeling, with applications ranging from hurricanes and tsunamis to compound flooding in urban environments under climate change. Much of this work is implemented through open-source modeling frameworks including [GeoClaw](https://github.com/clawpack/geoclaw) and [AMRClaw](https://github.com/clawpack/amrclaw), which are part of the broader [Clawpack](https://www.clawpack.org) ecosystem.
 
@@ -73,7 +73,7 @@ My contributions focus on bridging theory, algorithms, and software while ensuri
 
 ## Methods & Technical Approach
 
-This project combines several methodological threads:
+This research combines several methodological threads:
 
 - Depth-averaged and multilayer shallow water equations <d-cite key="Mandli.2013"></d-cite> <d-cite key="Schwarzschild.2018"></d-cite> for storm surge and inundation
 - Adaptive mesh refinement (AMR) to dynamically resolve coastlines, barriers, and urban features (e.g. {% cite MandliDawson.2014 %})
@@ -144,9 +144,10 @@ This work has been supported by funding from federal agencies including NSF, NOA
 
 Many projects involve multi-institutional collaborations linking academia, national labs, and operational partners.
 
-## Status
+## Current Directions
 
-**Ongoing**: This project continues to evolve, with current efforts emphasizing compound flooding, climate-driven risk assessment, scalable uncertainty quantification, and tighter integration with decision-support frameworks.
+Current efforts emphasize compound flooding, climate-driven risk assessment,
+scalable uncertainty quantification, embedded coastal protections, and tighter integration with decision-support frameworks.
 
 ## Related
 
@@ -162,3 +163,4 @@ Many projects involve multi-institutional collaborations linking academia, natio
 - [NASA Sea Level Change Team](https://sealevel.nasa.gov)
 - Change in coastal surge risk from extra-tropical storms (e.g. nor’easters)
 - [Assessing the public health risk due to tropical cyclone impacts on petrochemical facilities](https://www.nationalacademies.org/programs/GULF-GHRB-22-P-468/awarded-projects#)
+- [Rising Voices, Changing Coasts](https://www.rvcchub.org)

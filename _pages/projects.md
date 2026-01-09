@@ -1,7 +1,7 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
+title: research
+permalink: /research/
 description:
 nav: true
 nav_order: 3
@@ -10,7 +10,7 @@ nav_order: 3
 horizontal: false
 ---
 
-My work focuses on numerical methods and open-source software for geophysical hazards, coastal flooding, and climate risk. The projects below summarize ongoing and recent efforts, with links to selected publications and software where relevant.
+My research spans several interconnected areas at the intersection of applied mathematics, computational science, and climate risk. Each area below represents a long-term research program, with links to representative projects, publications, and software. These research areas represent ongoing, long-term efforts that evolve over time, rather than time-bounded projects.
 
 <!-- pages/projects.md -->
 <div class="projects">

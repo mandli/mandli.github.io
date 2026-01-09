@@ -95,7 +95,3 @@ Many of these efforts are closely linked to the [Coastal Flooding & Storm Surge 
 - Climate change contributions to compound flooding {% cite Sarhadi.2024 %}
 - Coastal flood hazards under climate change {% cite Hemmati.2025 %}
 - Optimization of coastal protection under uncertainty {% cite Miura.2025 %}
-
-## Status
-
-Ongoing, with current work emphasizing scalable uncertainty quantification, nonstationary risk metrics, and tighter integration with decision-support frameworks.

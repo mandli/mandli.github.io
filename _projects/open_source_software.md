@@ -27,8 +27,6 @@ Open-source software development is a central component of my research program. 
 
 My contributions emphasize software as a **research product**, not merely an implementation detail.
 
----
-
 ## Core Software Projects
 
 - **GeoClaw** – Adaptive storm surge and tsunami modeling  
@@ -42,8 +40,6 @@ My contributions emphasize software as a **research product**, not merely an imp
 
 These tools are used internationally in research, education, and applied hazard modeling.
 
----
-
 ## Design Principles
 
 - Close coupling between **numerical methods and software architecture**
@@ -52,8 +48,6 @@ These tools are used internationally in research, education, and applied hazard 
 - Extensibility for interdisciplinary applications
 - Community engagement and mentorship
 
----
-
 ## Impact
 
 - Broad adoption in geophysical and applied mathematics communities
@@ -61,16 +55,8 @@ These tools are used internationally in research, education, and applied hazard 
 - Training of students and early-career researchers through real research software
 - Long-term sustainability of research codes beyond individual projects or grants
 
----
-
 ## Representative Publications
 
 - Clawpack software ecosystem {% cite MandliEtAl.2016 %}
 - PyClaw: scalable tools for wave propagation {% cite KetchesonEtAl.2012 %}
 - GeoClaw for depth-averaged geophysical flows {% cite BergerEtAl.2011 %}
-
----
-
-## Status
-
-**Ongoing**, with continued development, community support, and integration with new modeling and uncertainty-quantification efforts.
