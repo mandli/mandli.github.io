@@ -72,17 +72,17 @@ ninja.data = [{
               window.location.href = "/projects/coastal_flooding_storm_surge/";
             },},{id: "projects-convergence-science-amp-decision-support",
           title: 'Convergence Science &amp;amp; Decision Support',
-          description: "",
+          description: "Integrating computational science with social, environmental, and decision-focused perspectives for climate and hazard research.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/convergence_science_decision_support/";
             },},{id: "projects-numerical-methods-for-hyperbolic-pdes",
           title: 'Numerical Methods for Hyperbolic PDEs',
-          description: "",
+          description: "Design and analysis of finite-volume and adaptive numerical methods for nonlinear hyperbolic partial differential equations with applications to geophysical flows.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/numerical_methods_hyperbolic_pdes/";
             },},{id: "projects-open-source-scientific-software",
           title: 'Open Source Scientific Software',
-          description: "",
+          description: "Development and stewardship of open-source software for numerical simulation of hyperbolic PDEs and geophysical hazards.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/open_source_software/";
             },},{id: "projects-uncertainty-quantification-and-risk",
