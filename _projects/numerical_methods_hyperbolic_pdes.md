@@ -28,9 +28,6 @@ My work in this area combines numerical analysis, algorithm design, and large-sc
         {% include figure.liquid loading="eager" path="assets/img/projects/hyperbolic/wall_overtopping.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    
-</div>
 
 ## Core Themes
 
