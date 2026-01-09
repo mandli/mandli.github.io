@@ -2,7 +2,7 @@
 layout: page
 title: Coastal Flooding & Storm Surge Modeling
 description: Development of high-resolution, adaptive numerical models for storm surge and coastal flooding, with applications to urban infrastructure, compound flooding, and climate-driven risk assessment.
-img: assets/img/sandy_nyc/S12_L05_AT/surface_nyc.png
+img: assets/img/thumbs/surface_nyc.png
 importance: 1
 category: work
 related_publications: true
@@ -27,26 +27,26 @@ My work in this area spans algorithm development, open-source software, and appl
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/sandy_nyc/S10_L00_AT/surface_nyc.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/climate_storm_surge/sandy_nyc/S10_L00_AT/surface_nyc.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/sandy_nyc/S10_L00_AT/currents_nyc.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/sandy_nyc/S12_L05_AT/surface_nyc.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/sandy_nyc/S12_L05_AT/currents_nyc.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/climate_storm_surge/sandy_nyc/S10_L00_AT/currents_nyc.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/sandy_nyc/surface_colorbar_horizontal.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/climate_storm_surge/sandy_nyc/S12_L05_AT/surface_nyc.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/sandy_nyc/speed_colorbar_horizontal.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/climate_storm_surge/sandy_nyc/S12_L05_AT/currents_nyc.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/climate_storm_surge/sandy_nyc/surface_colorbar_horizontal.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/climate_storm_surge/sandy_nyc/speed_colorbar_horizontal.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -98,7 +98,7 @@ Together, these case studies emphasize the importance of resolving fine-scale co
 
 <div class="row justify-content-sm-left">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/sandy_nyc/fig6_b-1136.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/climate_storm_surge/sandy_nyc/fig6_b-1136.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 md-md-0">
         Changes in the return curves for Jamaica Bay NYC for the current climate (blue), projected climate in 2050 (orange), and projected climate in 2100 (red) from {% cite Sarhadi.2024 %}.
@@ -109,7 +109,7 @@ Together, these case studies emphasize the importance of resolving fine-scale co
         Flooding risk to lower Manhattan subway lines with number of openings into the subway from {% cite Miura.2025 %}.
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/sandy_nyc/14ftHeightFloodBopenings-1159_m.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/climate_storm_surge/sandy_nyc/14ftHeightFloodBopenings-1159_m.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
