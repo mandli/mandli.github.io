@@ -2,7 +2,7 @@
 layout: page
 title: Open Source Scientific Software
 description: Development and stewardship of open-source software for numerical simulation of hyperbolic PDEs and geophysical hazards.
-img: assets/img/thumbs/geoclaw_icon.jpg
+img: assets/img/thumbs/geoclaw_icon.png
 importance: 4
 category: work
 related_publications: true

@@ -2,7 +2,7 @@
 layout: page
 title: Uncertainty Quantification and Risk
 description: Quantifying, propagating, and interpreting uncertainty in computational models of geophysical hazards and climate-driven risk.
-img: assets/img/musigma1-762.png
+img: assets/img/thumbs/musigma1-762.png
 importance: 3
 category: work
 related_publications: true
@@ -18,12 +18,12 @@ My work emphasizes uncertainty-aware modeling strategies that remain computation
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <div class="proj-fig">
-            {% include figure.liquid loading="eager" path="assets/img/monotone_decomp.png" title="example image" class="img-fluid rounded z-depth-1" %}
+            {% include figure.liquid loading="eager" path="assets/img/projects/uq/monotone_decomp.png" title="example image" class="img-fluid rounded z-depth-1" %}
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <div class="proj-fig">
-            {% include figure.liquid loading="eager" path="assets/img/sandy_nyc/fig6_b-1136.png" title="example image" class="img-fluid rounded z-depth-1" %}
+            {% include figure.liquid loading="eager" path="assets/img/thumbs/musigma1-762.png" title="example image" class="img-fluid rounded z-depth-1" %}
         </div>
     </div>
 </div>
