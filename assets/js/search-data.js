@@ -4,34 +4,34 @@ const ninja = document.querySelector('ninja-keys');
 // add the home and posts menu items
 ninja.data = [{
     id: "nav-about",
-    title: "about",
+    title: "About",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
     },
   },{id: "nav-blog",
-          title: "blog",
+          title: "Blog",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/blog/";
           },
         },{id: "nav-publications",
-          title: "publications",
+          title: "Publications",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-research",
-          title: "research",
+        },{id: "nav-research-areas",
+          title: "Research Areas",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/research/";
           },
         },{id: "nav-repositories",
-          title: "repositories",
+          title: "Repositories",
           description: "",
           section: "Navigation",
           handler: () => {
@@ -67,27 +67,27 @@ ninja.data = [{
               window.location.href = "/news/paper_hemmati_2025/";
             },},{id: "projects-coastal-flooding-amp-storm-surge-modeling",
           title: 'Coastal Flooding &amp;amp; Storm Surge Modeling',
-          description: "Development of high-resolution, adaptive numerical models for storm surge and coastal flooding, with applications to urban infrastructure, compound flooding, and climate-driven risk assessment.",
+          description: "High-resolution numerical modeling of storm surge and coastal flooding, with applications to urban infrastructure, compound flooding, and climate-driven risk assessment.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/coastal_flooding_storm_surge/";
             },},{id: "projects-convergence-science-amp-decision-support",
           title: 'Convergence Science &amp;amp; Decision Support',
-          description: "Integrating computational science with social, environmental, and decision-focused perspectives for climate and hazard research.",
+          description: "Convergence-science approaches to climate and hazard research, integrating computational modeling with interdisciplinary and decision-focused perspectives.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/convergence_science_decision_support/";
             },},{id: "projects-numerical-methods-for-hyperbolic-pdes",
           title: 'Numerical Methods for Hyperbolic PDEs',
-          description: "Design and analysis of finite-volume and adaptive numerical methods for nonlinear hyperbolic partial differential equations with applications to geophysical flows.",
+          description: "Finite-volume and adaptive numerical methods for nonlinear hyperbolic PDEs, motivated by transport-dominated systems in geophysical and environmental modeling.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/numerical_methods_hyperbolic_pdes/";
             },},{id: "projects-open-source-scientific-software",
           title: 'Open Source Scientific Software',
-          description: "Development and stewardship of open-source software for numerical simulation of hyperbolic PDEs and geophysical hazards.",
+          description: "Open-source scientific software for scalable and reproducible simulation, supporting numerical methods and applications in geophysical hazards.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/open_source_software/";
             },},{id: "projects-uncertainty-quantification-and-risk",
           title: 'Uncertainty Quantification and Risk',
-          description: "Quantifying, propagating, and interpreting uncertainty in computational models of geophysical hazards and climate-driven risk.",
+          description: "Uncertainty quantification and risk analysis for geophysical hazard models, emphasizing scalable methods and decision-relevant interpretation under climate change.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/uncertainty_risk/";
             },},{
