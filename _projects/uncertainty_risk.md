@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Uncertainty Quantification and Risk
-description: Quantifying, propagating, and interpreting uncertainty in computational models of geophysical hazards and climate-driven risk.
+description: Uncertainty quantification and risk analysis for geophysical hazard models, emphasizing scalable methods and decision-relevant interpretation under climate change.
 img: assets/img/thumbs/musigma1-762.png
 importance: 3
 category: work
@@ -11,7 +11,7 @@ tags: uncertainty quantification, risk assessment, climate hazards, surrogate mo
 
 # Overview
 
-Uncertainty is inherent in models of coastal flooding and geophysical hazards, arising from incomplete observations, model assumptions, and future climate conditions. This project focuses on **quantifying, propagating, and interpreting uncertainty** in computational models, with the goal of producing **risk-relevant and decision-supporting outputs** rather than single deterministic predictions.
+Uncertainty is inherent in computational models of geophysical systems, arising from incomplete observations, model assumptions, and future climate conditions. This project focuses on **quantifying, propagating, and interpreting uncertainty** in computational models, with the goal of producing **risk-relevant and decision-supporting outputs** rather than single deterministic predictions.
 
 My work emphasizes uncertainty-aware modeling strategies that remain computationally feasible for large-scale, high-resolution simulations. It builds upon earlier contributions to uncertainty quantification and inverse problems for geophysical systems, extending these ideas to modern, large-scale risk assessment under climate change.
 
@@ -31,8 +31,6 @@ My work emphasizes uncertainty-aware modeling strategies that remain computation
     Left: Monotone decomposition for transport aware model reduction from {% cite Rim.2023 %}.  Right: Changes in the return curves for Jamaica Bay NYC for the current climate (blue), projected climate in 2050 (orange), and projected climate in 2100 (red) from {% cite Sarhadi.2024 %}.
 </div>
 
----
-
 ## Core Questions
 
 - How should uncertainty in storms, sea level rise, and model parameters be represented in coastal hazard models?
@@ -42,7 +40,7 @@ My work emphasizes uncertainty-aware modeling strategies that remain computation
 
 ## Methods & Approaches
 
-This project integrates uncertainty quantification techniques with numerical simulation and data-driven modeling, including:
+My research integrates uncertainty quantification techniques with numerical simulation and data-driven modeling, including:
 
 - **Polynomial chaos and surrogate modeling** for efficient uncertainty propagation
 - **Bayesian inference and inverse methods** for parameter estimation in geophysical models
@@ -67,7 +65,7 @@ Representative applications include:
 - Evaluation of coastal protection strategies under uncertain future conditions
 - Interpretation of hazard uncertainty for stakeholder-facing studies
 
-Many of these efforts are closely linked to the [Coastal Flooding & Storm Surge Modeling]({% link _projects/coastal_flooding_storm_surge.md %}) project, where uncertainty-aware methods are applied at scale. This work also draws on foundational numerical methods described in [Numerical Methods for Hyperbolic PDEs]({% link _projects/numerical_methods_hyperbolic_pdes.md %})
+Many of these efforts are closely linked to the [Coastal Flooding & Storm Surge Modeling]({% link _projects/coastal_flooding_storm_surge.md %}) project, where uncertainty-aware methods are applied at scale. This work also draws on foundational numerical methods described in [Numerical Methods for Hyperbolic PDEs]({% link _projects/numerical_methods_hyperbolic_pdes.md %}).
 
 ## Outcomes
 
@@ -79,7 +77,7 @@ Many of these efforts are closely linked to the [Coastal Flooding & Storm Surge 
 ### Impact
 
 - Risk metrics that move beyond deterministic flood maps
-- Improved [communication of uncertainty to interdisciplinary collaborators]({% link _projects/convergence_science_decision_support.md %}
+- Improved [communication of uncertainty to interdisciplinary collaborators]({% link _projects/convergence_science_decision_support.md %})
 - Support for climate adaptation and resilience planning under deep uncertainty
 
 ## Representative Publications

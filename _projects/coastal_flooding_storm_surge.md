@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Coastal Flooding & Storm Surge Modeling
-description: Development of high-resolution, adaptive numerical models for storm surge and coastal flooding, with applications to urban infrastructure, compound flooding, and climate-driven risk assessment.
+description: High-resolution numerical modeling of storm surge and coastal flooding, with applications to urban infrastructure, compound flooding, and climate-driven risk assessment.
 img: assets/img/thumbs/surface_nyc.png
 importance: 1
 category: work
@@ -13,15 +13,13 @@ tags: AMR, shallow water equations, uncertainty quantification, climate risk
 
 _Adaptive numerical modeling of storm surge and coastal flooding, from algorithms and open-source software to climate-driven risk assessment in urban and coastal environments._
 
----
-
 **Jump to:** [Methods](#methods--technical-approach) · [Applications](#applications--case-studies) · [Outcomes](#outcomes) · [References](#related)
 
 ---
 
 # Overview
 
-Coastal flooding driven by storm surge, tides, waves, and river inflows poses increasing risks to coastal communities and critical infrastructure. This research develops numerically robust, high-resolution models for coastal flooding that integrate advanced numerical methods with real-world geophysical complexity, enabling both scientific insight and actionable risk assessment.
+Coastal flooding driven by storm surge, tides, waves, and river inflows poses increasing risks to coastal communities and critical infrastructure. This research develops numerically robust, high-resolution models for coastal flooding that integrate advanced numerical methods with real-world geophysical complexity, enabling both scientific insight and actionable flood-risk assessment.
 
 My work in this area spans algorithm development, open-source software, and applied modeling, with applications ranging from hurricanes and tsunamis to compound flooding in urban environments under climate change. Much of this work is implemented through open-source modeling frameworks including [GeoClaw](https://github.com/clawpack/geoclaw) and [AMRClaw](https://github.com/clawpack/amrclaw), which are part of the broader [Clawpack](https://www.clawpack.org) ecosystem.
 
@@ -71,11 +69,11 @@ Top: historical storm and mean sea level. Bottom: hypothetical scenario with +20
 
 My contributions focus on bridging theory, algorithms, and software while ensuring models remain usable by interdisciplinary teams and stakeholders.
 
-## Methods & Technical Approach
+## Methods & Approaches
 
 This research combines several methodological threads:
 
-- Depth-averaged and multilayer shallow water equations <d-cite key="Mandli.2013"></d-cite> <d-cite key="Schwarzschild.2018"></d-cite> for storm surge and inundation
+- Depth-averaged and multilayer shallow water equations {% cite Mandli.2013 Schwarzschild.2018 %} for storm surge and inundation
 - Adaptive mesh refinement (AMR) to dynamically resolve coastlines, barriers, and urban features (e.g. {% cite MandliDawson.2014 %})
 - Finite-volume methods designed to handle dry states, wetting/drying, and complex bathymetry {% cite Berger.2011 %}
 - Coupling strategies for coastal–hydrologic interactions and compound flooding {% cite Hamidi.2025 %}
@@ -84,7 +82,7 @@ This research combines several methodological threads:
 
 These methods are implemented and tested through open-source software frameworks to ensure transparency, reproducibility, and long-term sustainability.
 
-## Applications & Case Studies
+## Applications
 
 Representative applications include:
 
@@ -122,7 +120,7 @@ Together, these case studies emphasize the importance of resolving fine-scale co
 
 ### Software
 
-All the work I do is done using [open-source software]({% link _projects/open_source_software.md %}) frameworks and contributed freely to he wider community.
+All the work I do is done using [open-source software]({% link _projects/open_source_software.md %}) frameworks and contributed freely to the wider community.
 
 - **GeoClaw** – Open-source storm surge and tsunami modeling software with adaptive mesh refinement  
   <https://github.com/clawpack/geoclaw>
@@ -148,12 +146,11 @@ Many projects involve multi-institutional collaborations linking academia, natio
 
 ## Current Directions
 
-Current efforts emphasize compound flooding, climate-driven risk assessment,
-scalable [uncertainty quantification]({% link _projects/uncertainty_risk.md %}), embedded coastal protections, and tighter integration with decision-support frameworks.
+Current directions emphasize compound flooding, climate-driven risk assessment, scalable [uncertainty quantification]({% link _projects/uncertainty_risk.md %}), embedded coastal protections, and tighter integration with decision-support frameworks.
 
 ## Related
 
-### Selected Publications
+### Representative Publications
 
 - Optimization of coastal protection {% cite Miura.2025 %}
 - Climate change contributions to compound flooding {% cite Sarhadi.2024  %}

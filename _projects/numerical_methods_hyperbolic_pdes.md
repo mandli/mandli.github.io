@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Numerical Methods for Hyperbolic PDEs
-description: Design and analysis of finite-volume and adaptive numerical methods for nonlinear hyperbolic partial differential equations with applications to geophysical flows.
+description: Finite-volume and adaptive numerical methods for nonlinear hyperbolic PDEs, motivated by transport-dominated systems in geophysical and environmental modeling.
 img: assets/img/thumbs/wall_overtopping.png
 importance: 2
 category: work
@@ -13,7 +13,7 @@ tags: hyperbolic PDEs, finite volume methods, adaptive mesh refinement, numerica
 
 In my research I focus on the development of **robust numerical methods for nonlinear hyperbolic partial differential equations**, with an emphasis on transport-dominated systems arising in geophysical and environmental applications.
 
-My work in this area combines numerical analysis, algorithm design, and large-scale computation, often motivated by challenges encountered in real-world coastal and hazard modeling.
+My work in this area combines numerical analysis, algorithm design, and large-scale computation, often motivated by challenges encountered in applied geophysical and environmental modeling. This work provides the mathematical foundation for several applied and interdisciplinary research areas described elsewhere on this site.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -37,7 +37,7 @@ My work in this area combines numerical analysis, algorithm design, and large-sc
 - Stability and accuracy in complex geometries
 - Transport-dominated and nonsmooth solution behavior
 
-## Methods & Contributions
+## Methods & Approaches
 
 Key methodological contributions include:
 
@@ -46,8 +46,6 @@ Key methodological contributions include:
 - Cut-cell and barrier methods for complex domains
 - Transport-aware approaches to reduced-order modeling
 - Algorithmic foundations supporting scalable implementations
-
-These methods often serve as the numerical backbone for larger modeling frameworks, including coastal flooding and hazard simulations.
 
 ## Connections to Other Projects
 
@@ -63,7 +61,3 @@ This work underpins several related efforts, including:
 - Finite-volume methods for shallow water systems {% cite Mandli.2013 %}
 - Transport-dominated model reduction {% cite Rim.2018 Rim.2023 %}
 - Open-source frameworks for hyperbolic PDEs {% cite Mandli.2016 Ketcheson.2012 %}
-
-## Status
-
-**Ongoing**, with continued emphasis on scalable algorithms, complex geometries, and integration with uncertainty-aware modeling.

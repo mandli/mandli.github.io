@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Convergence Science & Decision Support
-description: Integrating computational science with social, environmental, and decision-focused perspectives for climate and hazard research.
+description: Convergence-science approaches to climate and hazard research, integrating computational modeling with interdisciplinary and decision-focused perspectives.
 img: assets/img/thumbs/convergence.png
 importance: 5
 category: work
@@ -11,7 +11,7 @@ tags: convergence science, decision support, climate risk, interdisciplinary res
 
 # Overview
 
-Many pressing climate and hazard challenges cannot be addressed within a single discipline. This project focuses on **convergence science**, integrating computational modeling with social science, engineering, and stakeholder perspectives to support real-world decision-making.
+Many pressing climate and hazard challenges cannot be addressed within a single discipline, requiring integration across computational science, social science, and decision-making contexts. This project focuses on **convergence science**, integrating computational modeling with social science, engineering, and stakeholder perspectives to support real-world decision-making.
 
 My role in these efforts often centers on translating advanced numerical models into forms that are meaningful and usable beyond disciplinary boundaries.
 
@@ -21,7 +21,7 @@ My role in these efforts often centers on translating advanced numerical models 
     </div>
 </div>
 <div class="caption">
-    Interdependency diagram informed by interviews of stake-holders in New York City following Hurricane Sandy (to appear).
+    Interdependency diagram informed by interviews of stakeholders in New York City following Hurricane Sandy (in preparation).
 </div>
 
 ## Focus Areas
@@ -39,7 +39,7 @@ My role in these efforts often centers on translating advanced numerical models 
 - Collaborative leadership in interdisciplinary research teams
 - Support for policy- and planning-relevant climate assessments
 
-Many of these efforts build directly on technical work in [Coastal Flooding & Storm Surge Modeling]({% link _projects/coastal_flooding_storm_surge.md %}) and [Uncertainty Quantification & Risk]({% link _projects/uncertainty_risk.md %}), extending their impact through interdisciplinary collaboration.
+Many of these efforts build directly on technical work in [Coastal Flooding & Storm Surge Modeling]({% link _projects/coastal_flooding_storm_surge.md %}) and [Uncertainty Quantification & Risk]({% link _projects/uncertainty_risk.md %}), extending their impact through interdisciplinary collaboration. These efforts emphasize the role of computational science not only as a technical tool, but as a bridge between disciplines and decision contexts.
 
 ## Representative Publications
 
