@@ -1,6 +1,6 @@
 ---
 layout: page
-title: research
+title: Research Areas
 permalink: /research/
 description:
 nav: true
@@ -10,7 +10,13 @@ nav_order: 3
 horizontal: false
 ---
 
-My research spans several interconnected areas at the intersection of applied mathematics, computational science, and climate risk. Each area below represents a long-term research program, with links to representative projects, publications, and software. These research areas represent ongoing, long-term efforts that evolve over time, rather than time-bounded projects.
+My research spans several interconnected areas at the intersection of applied mathematics,
+computational science, and climate risk. These research areas represent long-term programs
+that evolve over time, linking numerical methods, open-source software, and real-world
+applications in geophysical hazard and climate-impact modeling.
+
+The areas below are tightly connected, and many publications, software tools,
+and collaborations span multiple categories.
 
 <!-- pages/projects.md -->
 <div class="projects">
@@ -66,9 +72,3 @@ My research spans several interconnected areas at the intersection of applied ma
   {% endif %}
 {% endif %}
 </div>
-
-Other links to my work:
-
-- [Clawpack Website](https://www.clawpack.org)
-- [GitHub Profile](https://github.com/mandli)
-- [Google Scholar page](https://scholar.google.com/citations?user=gsX-cv8AAAAJ&hl=en&oi=ao)

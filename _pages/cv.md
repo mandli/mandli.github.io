@@ -9,5 +9,3 @@ description:
 toc:
   sidebar: left
 ---
-
-Download full CV
