@@ -1,19 +1,66 @@
-- name: GeoClaw
-  blurb: Adaptive mesh refinement software for modeling geophysical flows (e.g., storm surge and tsunamis); core developer.
-  link_text: GitHub
-  link_url: https://github.com/clawpack/geoclaw
+# _data/software.yml
+# Canonical software + teaching-material entries for CV + site.
+# Keep fields consistent; optional fields are fine to omit per entry.
 
-- name: PyClaw
-  blurb: Python framework for solving hyperbolic PDEs; core developer and maintainer.
-  link_text: GitHub
-  link_url: https://github.com/clawpack/pyclaw
+- id: geoclaw
+  name: GeoClaw
+  kind: software
+  featured: true
+  role: Core developer & maintainer
+  website_blurb: Adaptive mesh refinement modeling of storm surge, tsunami, and coastal flooding.
+  description: Modeling geophysical flows with adaptive mesh refinement.
+  repo: https://github.com/clawpack/geoclaw
+  website: https://www.clawpack.org/geoclaw.html
+  tags: [AMR, shallow-water, hazards, storm-surge]
+  areas: [coastal-flooding, storm-surge, hazard-modeling, hyperbolic-pdes]
+  thumb: /assets/img/software/geoclaw_icon.png
 
-- name: Clawpack
-  blurb: Open-source ecosystem for finite-volume methods for hyperbolic PDEs; contributor and maintainer.
-  link_text: Website
-  link_url: https://clawpack.org
+- id: pyclaw
+  name: PyClaw
+  kind: software
+  featured: true
+  role: Core developer & maintainer
+  website_blurb: Python framework for solving hyperbolic PDEs with modern, reproducible workflows.
+  description: A Python framework for solving hyperbolic PDEs.
+  repo: https://github.com/clawpack/pyclaw
+  website: https://www.clawpack.org/pyclaw.html
+  tags: [python, hyperbolic-pdes, finite-volume]
+  areas: [hyperbolic-pdes, scientific-computing, numerical-methods]
+  thumb: /assets/img/software/pyclaw_icon.png
 
-- name: Course notes (Jupyter)
-  blurb: Open teaching materials for numerical methods and numerical PDEs.
-  link_text: Intro Numerical Methods
-  link_url: https://github.com/mandli/intro-numerical-methods
+- id: clawpack
+  name: Clawpack Suite
+  kind: software
+  featured: true
+  role: Contributor & maintainer
+  website_blurb: (Conservation Laws Package) Open-source ecosystem for wave propagation and finite-volume methods.
+  description: Clawpack software suite.
+  repo: https://github.com/clawpack
+  website: https://clawpack.org
+  tags: [finite-volume, wave-propagation, ecosystem]
+  areas: [hyperbolic-pdes, numerical-methods, scientific-computing]
+  thumb: /assets/img/software/clawpack_icon.png
+
+- id: intro-numerical-methods
+  name: Numerical Methods Course Notes
+  kind: course_notes
+  featured: true
+  role: Author
+  website_blurb: Jupyter notebook-based course materials for an introduction to numerical methods.
+  description: Jupyter notebooks for an intro to numerical methods course.
+  repo: https://github.com/mandli/intro-numerical-methods
+  tags: [teaching, jupyter, reproducibility]
+  areas: [teaching, numerical-methods]
+  # thumb: /assets/img/oss/intro-nm.png
+
+- id: numerical-methods-pdes
+  name: Numerical Methods for PDEs Course Notes
+  kind: course_notes
+  featured: true
+  role: Author
+  website_blurb: Jupyter notebook materials for teaching numerical methods for PDEs.
+  description: Jupyter notebooks for teaching numerical methods for PDEs courses.
+  repo: https://github.com/mandli/
+  tags: [teaching, pdes, jupyter]
+  areas: [teaching, hyperbolic-pdes, numerical-methods]
+  # thumb: /assets/img/oss/nm-pdes.png

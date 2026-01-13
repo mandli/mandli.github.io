@@ -4,7 +4,7 @@ title: Research Areas
 permalink: /research/
 description:
 nav: true
-nav_order: 3
+nav_order: 2
 # display_categories: [current, past]
 # display_categories:
 horizontal: false

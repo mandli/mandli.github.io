@@ -51,19 +51,8 @@ description:
 
 ## Open-source software (selected)
 
-<div class="row">
-  {% for s in site.data.software %}
-  <div class="col-md-6 mb-3">
-    <div class="card h-100">
-      <div class="card-body">
-        <h5 class="card-title">{{ s.name }}</h5>
-        <p class="card-text">{{ s.blurb }}</p>
-        <a class="card-link" href="{{ s.link_url }}" target="_blank" rel="noopener">{{ s.link_text }}</a>
-      </div>
-    </div>
-  </div>
-  {% endfor %}
-</div>
+{% assign featured = site.data.software | where: "featured", true %}
+{% include software_cards_mini.html items=featured %}
 
 ## Teaching & mentoring (at a glance)
 

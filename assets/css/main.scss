@@ -52,3 +52,161 @@ $max-content-width: {{ site.max_width }};
   margin-top: 0.5rem;
   margin-bottom: 1.5rem;
 }
+
+// Software CSS
+/* ==========================
+   OSS cards that follow theme
+   ========================== */
+
+/* Use currentColor / inherited colors so this adapts to your theme.js dark mode */
+.oss-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  gap:1.2rem;
+  margin-top:1.2rem;
+}
+
+/* Key trick: use transparent background + border based on current text color */
+.oss-card{
+  border:1px solid color-mix(in srgb, currentColor 18%, transparent);
+  border-radius:16px;
+  overflow:hidden;
+  background: transparent;
+  /* subtle separation without forcing a light background */
+  box-shadow: 0 10px 24px rgba(0,0,0,0.18);
+  padding-top: 0.2rem; /* optional */
+}
+
+/* If your theme already uses strong shadows in dark mode, you can comment this out */
+.oss-body{
+  padding:1rem 1rem 1.05rem 1rem;
+}
+
+.oss-title{
+  margin:0 0 0.35rem 0;
+  font-size:1.12rem;
+  line-height:1.25;
+}
+
+/* Muted text derived from currentColor */
+.oss-role,
+.oss-blurb{
+  color: color-mix(in srgb, currentColor 75%, transparent);
+}
+
+.oss-role{
+  font-weight:650;
+  margin-bottom:0.55rem;
+}
+
+.oss-blurb{
+  margin:0.35rem 0 0.85rem 0;
+}
+
+/* Thumbnail container */
+.oss-thumb{
+  background: #ffffff;          /* neutral canvas */
+  // background: #f7f7f7;          /* warm off-white */
+  background: linear-gradient(#fafafa, #f0f0f0);
+  padding: 14px;
+  border-bottom: 1px solid color-mix(in srgb, currentColor 12%, transparent);
+}
+
+/* Image itself */
+.oss-thumb img{
+  width: 100%;
+  height: 160px;
+  object-fit: contain;
+  display: block;
+  background: transparent;
+}
+
+/* Missing image fallback: uses currentColor so it reads in dark mode */
+.oss-thumb-fallback{
+  width:100%;
+  height:180px;
+  // background: color-mix(in srgb, currentColor 6%, transparent);
+  background: linear-gradient(#fafafa, #f0f0f0);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.oss-thumb-initial{
+  font-size:3rem;
+  font-weight:800;
+  color: color-mix(in srgb, currentColor 70%, transparent);
+}
+
+.oss-tags{
+  display:flex;
+  flex-wrap:wrap;
+  gap:0.4rem;
+  margin:0 0 0.9rem 0;
+}
+
+.oss-tag{
+  font-size:0.8rem;
+  padding:0.18rem 0.55rem;
+  border-radius:999px;
+  border:1px solid color-mix(in srgb, currentColor 18%, transparent);
+  background: color-mix(in srgb, currentColor 6%, transparent);
+  color: color-mix(in srgb, currentColor 85%, transparent);
+}
+
+.oss-links{
+  display:flex;
+  flex-wrap:wrap;
+  gap:0.75rem;
+}
+
+.oss-link{
+  font-size:0.92rem;
+  text-decoration:none;
+  border-bottom:1px solid color-mix(in srgb, currentColor 35%, transparent);
+  padding-bottom:1px;
+}
+
+/* ---------- Mini cards (real cards) ---------- */
+.oss-mini-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+  gap:0.9rem;
+  margin-top:0.85rem;
+}
+
+.oss-mini-card{
+  border:1px solid color-mix(in srgb, currentColor 18%, transparent);
+  border-radius:14px;
+  background: transparent;
+  padding:0.85rem 0.9rem;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.14);
+}
+
+.oss-mini-title{
+  margin:0 0 0.35rem 0;
+  font-weight:750;
+  line-height:1.25;
+}
+
+.oss-mini-role{
+  font-weight:500;
+  margin-left:0.35rem;
+  color: color-mix(in srgb, currentColor 75%, transparent);
+}
+
+.oss-mini-blurb{
+  margin:0 0 0.6rem 0;
+  color: color-mix(in srgb, currentColor 75%, transparent);
+}
+
+.oss-mini-links{
+  display:flex;
+  gap:0.8rem;
+  font-size:0.92rem;
+}
+.oss-mini-links a{
+  text-decoration:none;
+  border-bottom:1px solid color-mix(in srgb, currentColor 35%, transparent);
+  padding-bottom:1px;
+}

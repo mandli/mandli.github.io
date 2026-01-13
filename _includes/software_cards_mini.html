@@ -1,0 +1,28 @@
+{% assign items = include.items | default: site.data.software %}
+
+<div class="oss-mini-grid">
+  {% for p in items %}
+
+    {%- assign title = p.name | default: p.title | default: p.project | default: "Software" -%}
+    {%- assign repo_url = p.repo | default: p.github | default: p.repository | default: p.url -%}
+    {%- assign primary_url = p.website | default: p.homepage | default: repo_url -%}
+    {%- assign blurb = p.website_blurb | default: p.blurb | default: p.description | default: p.summary -%}
+
+    <div class="oss-mini-card">
+      <div class="oss-mini-title">
+        <a href="{{ primary_url }}">{{ title }}</a>
+        {% if p.role %}<span class="oss-mini-role">— {{ p.role }}</span>{% endif %}
+      </div>
+
+      {% if blurb %}
+        <div class="oss-mini-blurb">{{ blurb }}</div>
+      {% endif %}
+
+      <div class="oss-mini-links">
+        {% if repo_url %}<a href="{{ repo_url }}">Repo</a>{% endif %}
+        {% if p.docs %}<a href="{{ p.docs }}">Docs</a>{% endif %}
+      </div>
+    </div>
+
+  {% endfor %}
+</div>
