@@ -1,0 +1,19 @@
+- name: GeoClaw
+  blurb: Adaptive mesh refinement software for modeling geophysical flows (e.g., storm surge and tsunamis); core developer.
+  link_text: GitHub
+  link_url: https://github.com/clawpack/geoclaw
+
+- name: PyClaw
+  blurb: Python framework for solving hyperbolic PDEs; core developer and maintainer.
+  link_text: GitHub
+  link_url: https://github.com/clawpack/pyclaw
+
+- name: Clawpack
+  blurb: Open-source ecosystem for finite-volume methods for hyperbolic PDEs; contributor and maintainer.
+  link_text: Website
+  link_url: https://clawpack.org
+
+- name: Course notes (Jupyter)
+  blurb: Open teaching materials for numerical methods and numerical PDEs.
+  link_text: Intro Numerical Methods
+  link_url: https://github.com/mandli/intro-numerical-methods
