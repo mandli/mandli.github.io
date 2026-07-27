@@ -11,7 +11,7 @@ description:
   <div class="col-sm-8">
     <p><strong>Computational applied mathematician</strong> working on coastal flooding, storm surge, and geophysical hazards, with expertise in finite-volume methods, adaptive mesh refinement (AMR), uncertainty quantification, and high-performance scientific computing.</p>
     <p>
-      <a class="btn btn-primary" href="{% link assets/pdf/cv_2026_07_01.pdf %}">Download full CV (PDF)</a>
+      <a class="btn btn-primary" href="{% link assets/pdf/cv_2026_07_24.pdf %}">Download full CV (PDF)</a>
       <a class="btn btn-outline-primary" href="{% link _pages/publications.md %}">Publications</a>
       <a class="btn btn-outline-primary" href="{% link _pages/projects.md %}">Research</a>
     </p>
