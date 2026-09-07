@@ -11,7 +11,7 @@ description:
   <div class="col-sm-8">
     <p><strong>Computational applied mathematician</strong> working on coastal flooding, storm surge, and geophysical hazards, with expertise in finite-volume methods, adaptive mesh refinement (AMR), uncertainty quantification, and high-performance scientific computing.</p>
     <p>
-      <a class="btn btn-primary" href="{% link assets/pdf/cv_2026_07_24.pdf %}">Download full CV (PDF)</a>
+      <a class="btn btn-primary" href="{% link assets/pdf/cv_2026-09-07.pdf %}">Download full CV (PDF)</a>
       <a class="btn btn-outline-primary" href="{% link _pages/publications.md %}">Publications</a>
       <a class="btn btn-outline-primary" href="{% link _pages/projects.md %}">Research</a>
     </p>
@@ -28,10 +28,10 @@ description:
 
 ## Research highlights
 
-- Develops numerical methods and scientific software for nonlinear hyperbolic PDEs, with emphasis on adaptive finite-volume schemes and transport-dominated systems.
-- Leads and contributes to widely used open-source software for geophysical and hazard modeling, including **Clawpack**, **GeoClaw**, and **PyClaw**, supporting applications across academia, government, and industry.
-- Conducts interdisciplinary research at the interface of applied mathematics, climate science, and coastal risk, with applications to storm surge, compound flooding, and infrastructure resilience.
-- Collaborates with national laboratories, federal agencies, and international partners on decision-relevant modeling for climate and hazard impacts.
+- Leadership in the development and maintenance of widely used open-source numerical software for hyperbolic PDEs (**Clawpack**, **GeoClaw**, **PyClaw**), adopted across academia, government (including NOAA and the National Weather Service), and industry, supporting geophysics, climate science, and hazard modeling.
+- Verification, validation, and reproducibility practices for scientific software sustained across two decades and many contributors, including an in-progress project-wide policy for AI-assisted contribution built around numerical verification as a required proof obligation.
+- Collaborative research with national and international research institutions and government agencies, including NCAR, the Flatiron Institute, NOAA, and the National Weather Service.
+- Contributions to decision-relevant modeling in contexts including coastal flooding, storm surge, climate risk, and infrastructure resilience.
 
 <p class="small">
   <strong>Selected metrics:</strong>
