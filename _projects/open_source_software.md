@@ -59,6 +59,6 @@ These software efforts support research areas including [Numerical Methods for H
 
 ## Representative Publications
 
-- Clawpack software ecosystem {% cite MandliEtAl.2016 %}
-- PyClaw: scalable tools for wave propagation {% cite KetchesonEtAl.2012 %}
-- GeoClaw for depth-averaged geophysical flows {% cite BergerEtAl.2011 %}
+- Clawpack software ecosystem {% cite mandli.2016.clawpack %}
+- PyClaw: scalable tools for wave propagation {% cite ketcheson.2012.pyclaw %}
+- GeoClaw for depth-averaged geophysical flows {% cite berger.2011.geoclaw %}

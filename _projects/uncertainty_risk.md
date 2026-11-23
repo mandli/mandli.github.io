@@ -28,7 +28,7 @@ My work emphasizes uncertainty-aware modeling strategies that remain computation
     </div>
 </div>
 <div class="caption mt-2 mb-4">
-    Left: Monotone decomposition for transport aware model reduction from {% cite Rim.2023 %}.  Right: Changes in the return curves for Jamaica Bay NYC for the current climate (blue), projected climate in 2050 (orange), and projected climate in 2100 (red) from {% cite Sarhadi.2024 %}.
+    Left: Monotone decomposition for transport aware model reduction from {% cite rim.2023.manifold %}.  Right: Changes in the return curves for Jamaica Bay NYC for the current climate (blue), projected climate in 2050 (orange), and projected climate in 2100 (red) from {% cite sarhadi.2024.climate %}.
 </div>
 
 ## Core Questions
@@ -84,12 +84,12 @@ Many of these efforts are closely linked to the [Coastal Flooding & Storm Surge 
 
 ### Foundations of Uncertainty Quantification
 
-- Quantifying uncertainties in tsunami source inversion {% cite Sraj.2017 Giraldi.2017 %}
-- Bayesian inference of geophysical parameters {% cite Sraj.2014 %}
-- Polynomial chaos surrogates for transport-dominated systems {% cite Rim.2018 %}
+- Quantifying uncertainties in tsunami source inversion {% cite sraj.2017.quantifying giraldi.2017.bayesian %}
+- Bayesian inference of geophysical parameters {% cite sraj.2014.uncertainty %}
+- Polynomial chaos surrogates for transport-dominated systems {% cite rim.2018.displacement %}
 
 ### Risk, Climate, and Coastal Applications
 
-- Climate change contributions to compound flooding {% cite Sarhadi.2024 %}
-- Coastal flood hazards under climate change {% cite Hemmati.2025 %}
-- Optimization of coastal protection under uncertainty {% cite Miura.2025 %}
+- Climate change contributions to compound flooding {% cite sarhadi.2024.climate %}
+- Coastal flood hazards under climate change {% cite hemmati.2025.assessment %}
+- Optimization of coastal protection under uncertainty {% cite miura.2025.coastal %}

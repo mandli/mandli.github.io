@@ -43,6 +43,6 @@ Many of these efforts build directly on technical work in [Coastal Flooding & St
 
 ## Representative Publications
 
-- Convergence science and climate challenges {% cite Maldonado.2025 %}
-- Interdisciplinary and convergent geoscience research {% cite Finn.2022 Bukvic.2022 %}
-- Climate risk and adaptation frameworks {% cite Sarhadi.2024 Miura.2021 %}
+- Convergence science and climate challenges {% cite lazrus.2025.tapestries %}
+- Interdisciplinary and convergent geoscience research {% cite finn.2022.moving bukvic.2022.advancing %}
+- Climate risk and adaptation frameworks {% cite sarhadi.2024.climate miura.2021.methodological %}

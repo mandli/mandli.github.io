@@ -73,10 +73,10 @@ My contributions focus on bridging theory, algorithms, and software while ensuri
 
 This research combines several methodological threads:
 
-- Depth-averaged and multilayer shallow water equations {% cite Mandli.2013 Schwarzschild.2018 %} for storm surge and inundation
-- Adaptive mesh refinement (AMR) to dynamically resolve coastlines, barriers, and urban features (e.g. {% cite MandliDawson.2014 %})
-- Finite-volume methods designed to handle dry states, wetting/drying, and complex bathymetry {% cite Berger.2011 %}
-- Coupling strategies for coastal–hydrologic interactions and compound flooding {% cite Hamidi.2025 %}
+- Depth-averaged and multilayer shallow water equations {% cite mandli.2013.numerical schwarzschild.2018.implementation %} for storm surge and inundation
+- Adaptive mesh refinement (AMR) to dynamically resolve coastlines, barriers, and urban features (e.g. {% cite mandli.2014.adaptive %})
+- Finite-volume methods designed to handle dry states, wetting/drying, and complex bathymetry {% cite berger.2011.geoclaw %}
+- Coupling strategies for coastal–hydrologic interactions and compound flooding {% cite hamidi.2025.coupling %}
 - Uncertainty quantification using surrogate models, ensembles, and probabilistic frameworks
 - High-performance computing for large-scale and ensemble simulations
 
@@ -87,10 +87,10 @@ These methods are implemented and tested through open-source software frameworks
 Representative applications include:
 
 - Hurricane-driven storm surge and inundation along U.S. coastlines
-- Urban flood risk for critical infrastructure (e.g. New York City transportation systems; {% cite Miura.2025 Sarhadi.2024 %})
-- Barrier island breaching and morphodynamic impacts on mainland flooding {% cite Jeffries.2025 Hoagland.2023 %}
-- Compound flooding from storm surge, tides, precipitation, and river discharge {% cite Hamidi.2025 Chegini.2022 Muñoz.2022 %}
-- Climate change scenarios, including sea level rise and changing storm characteristics {% cite Sarhadi.2024 Hamidi.2025 %}
+- Urban flood risk for critical infrastructure (e.g. New York City transportation systems; {% cite miura.2025.coastal sarhadi.2024.climate %})
+- Barrier island breaching and morphodynamic impacts on mainland flooding {% cite jeffries.2025.impacts hoagland.2023.advances %}
+- Compound flooding from storm surge, tides, precipitation, and river discharge {% cite hamidi.2025.coupling chegini.2022.novel Muñoz.2022 %}
+- Climate change scenarios, including sea level rise and changing storm characteristics {% cite sarhadi.2024.climate hamidi.2025.coupling %}
 
 Together, these case studies emphasize the importance of resolving fine-scale coastal features while retaining regional context, particularly under nonstationary climate conditions. Many studies are developed in collaboration with climate scientists, engineers, planners, and decision-makers to ensure relevance beyond academia.
 
@@ -99,12 +99,12 @@ Together, these case studies emphasize the importance of resolving fine-scale co
         {% include figure.liquid loading="eager" path="assets/img/projects/climate_storm_surge/sandy_nyc/fig6_b-1136.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 md-md-0">
-        Changes in the return curves for Jamaica Bay NYC for the current climate (blue), projected climate in 2050 (orange), and projected climate in 2100 (red) from {% cite Sarhadi.2024 %}.
+        Changes in the return curves for Jamaica Bay NYC for the current climate (blue), projected climate in 2050 (orange), and projected climate in 2100 (red) from {% cite sarhadi.2024.climate %}.
     </div>
 </div>
 <div class="row justify-content-sm-right">
     <div class="col-sm mt-3 mt-md-0">
-        Flooding risk to lower Manhattan subway lines with number of openings into the subway from {% cite Miura.2025 %}.
+        Flooding risk to lower Manhattan subway lines with number of openings into the subway from {% cite miura.2025.coastal %}.
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/climate_storm_surge/sandy_nyc/14ftHeightFloodBopenings-1159_m.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
@@ -152,10 +152,10 @@ Current directions emphasize compound flooding, climate-driven risk assessment, 
 
 ### Representative Publications
 
-- Optimization of coastal protection {% cite Miura.2025 %}
-- Climate change contributions to compound flooding {% cite Sarhadi.2024  %}
-- Coastal flood hazards due to climate change {% cite Hemmati.2025 %}
-- Coupled coastal-hydrologic modeling {% cite Hamidi.2025 %}
+- Optimization of coastal protection {% cite miura.2025.coastal %}
+- Climate change contributions to compound flooding {% cite sarhadi.2024.climate %}
+- Coastal flood hazards due to climate change {% cite hemmati.2025.assessment %}
+- Coupled coastal-hydrologic modeling {% cite hamidi.2025.coupling %}
 
 ### Related Initiatives
 
